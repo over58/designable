@@ -32,7 +32,7 @@
     "ove-designable-react": "",
     "ove-designable-react-sandbox": "",
     "ove-designable-react-settings-form": "",
-    "ove-designable-shared": "",
+    "ove-designable-shared": "0.0.2-alpha.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
