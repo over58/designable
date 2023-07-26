@@ -1,6 +1,6 @@
 {
   "name": "ove-designable-react-settings-form",
-  "version": "0.0.2-alpha.0",
+  "version": "0.0.2-alpha.1",
   "license": "MIT",
   "main": "lib",
   "types": "lib/index.d.ts",
@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/over58/designable#readme",
   "scripts": {
-    "build": "rimraf -rf lib esm dist && npm run build:cjs && npm run build:esm && npm run build:umd && ts-node copy",
+    "build": "rimraf -rf lib esm dist && npm run build:cjs && npm run build:esm && npm run build:umd && node copy.js",
     "build:cjs": "tsc --project tsconfig.build.json",
     "build:esm": "tsc --project tsconfig.build.json --module es2015 --outDir esm",
     "build:umd": "rollup --config --bundleConfigAsCjs"
@@ -54,12 +54,12 @@
     "@formily/shared": "^2.2.16",
     "@monaco-editor/loader": "^1.3.2",
     "@monaco-editor/react": "^4.4.6",
-    "ove-designable-core": "workspace:0.0.2-alpha.0",
-    "ove-designable-react": "workspace:0.0.2-alpha.0",
-    "ove-designable-shared": "workspace:0.0.2-alpha.0",
     "antd": "^5.1.2",
     "classnames": "^2.3.2",
     "monaco-editor": "^0.34.1",
+    "ove-designable-core": "workspace:0.0.2-alpha.1",
+    "ove-designable-react": "workspace:0.0.2-alpha.1",
+    "ove-designable-shared": "workspace:0.0.2-alpha.1",
     "prettier": "^2.8.1",
     "react-color": "^2.19.3"
   },
