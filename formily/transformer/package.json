@@ -33,8 +33,8 @@
     "@formily/json-schema": "^2.2.14"
   },
   "dependencies": {
-    "ove-designable-core": "workspace:0.0.3-alpha.0",
-    "ove-designable-shared": "workspace:0.0.3-alpha.0"
+    "ove-designable-core": "0.0.3-alpha.0",
+    "ove-designable-shared": "0.0.3-alpha.0"
   },
-  "gitHead": "bda070c137ba0003cc4451b2208e089d2e326b23"
+  "gitHead": "58af881a2f7f4ac0b833fbb3203100ccc0dfba69"
 }
