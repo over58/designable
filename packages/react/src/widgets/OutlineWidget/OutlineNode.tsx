@@ -4,8 +4,8 @@ import {
   ClosestPosition,
   CursorStatus,
   DragMoveEvent,
-} from '@ove/designable-core'
-import { globalThisPolyfill, isFn } from '@ove/designable-shared'
+} from 'ove-designable-core'
+import { globalThisPolyfill, isFn } from 'ove-designable-shared'
 import { autorun } from '@formily/reactive'
 import { observer, ReactFC } from '@formily/reactive-react'
 import {

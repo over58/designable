@@ -16,17 +16,17 @@ import {
   SettingsPanel,
   ComponentTreeWidget,
   ResourceListWidget,
-} from '@ove/designable-react'
+} from 'ove-designable-react'
 import {
   SettingsForm,
   setNpmCDNRegistry,
-} from '@ove/designable-react-settings-form'
+} from 'ove-designable-react-settings-form'
 import {
   createDesigner,
   GlobalRegistry,
   Shortcut,
   KeyCode,
-} from '@ove/designable-core'
+} from 'ove-designable-core'
 import {
   LogoWidget,
   ActionsWidget,
@@ -35,7 +35,7 @@ import {
   MarkupSchemaWidget,
 } from './widgets'
 import { saveSchema } from './service'
-import { sources } from '@ove/designable-formily-antd'
+import { sources } from 'ove-designable-formily-antd'
 import { Alert } from 'antd'
 setNpmCDNRegistry('//unpkg.com')
 const { ErrorBoundary } = Alert

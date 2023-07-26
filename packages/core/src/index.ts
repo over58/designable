@@ -1,6 +1,6 @@
 import * as Core from './exports'
 export * from './exports'
-import { globalThisPolyfill } from '@ove/designable-shared'
+import { globalThisPolyfill } from 'ove-designable-shared'
 
 if (globalThisPolyfill?.['Designable']?.['Core']) {
   try {

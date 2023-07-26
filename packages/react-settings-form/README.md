@@ -1,1 +1,1 @@
-# @ove/designable-react-settings-form
+# ove-designable-react-settings-form

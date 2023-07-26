@@ -1,5 +1,5 @@
-import { AppendNodeEvent, TreeNode } from '@ove/designable-core'
-import { useDesigner } from '@ove/designable-react'
+import { AppendNodeEvent, TreeNode } from 'ove-designable-core'
+import { useDesigner } from 'ove-designable-react'
 import { matchComponent, matchChildComponent } from '../shared'
 
 export const useDropTemplate = (

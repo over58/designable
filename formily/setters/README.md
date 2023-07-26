@@ -1,7 +1,7 @@
-# @ove/designable-formily-setters
+# ove-designable-formily-setters
 
 ### Install
 
 ```bash
-npm install --save @ove/designable-formily-setters
+npm install --save ove-designable-formily-setters
 ```

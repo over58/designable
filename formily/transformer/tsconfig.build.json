@@ -3,7 +3,7 @@
   "compilerOptions": {
     "outDir": "./lib",
     "paths": {
-      "@ove/designable-*": ["../../packages/*", "../../formily/*"]
+      "ove-designable-*": ["../../packages/*", "../../formily/*"]
     },
     "declaration": true
   }

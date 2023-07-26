@@ -1,4 +1,4 @@
-import { ICustomEvent } from '@ove/designable-shared'
+import { ICustomEvent } from 'ove-designable-shared'
 import { AbstractViewportEvent } from './AbstractViewportEvent'
 
 export class ViewportResizeEvent

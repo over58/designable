@@ -1,4 +1,4 @@
-import { TreeNode } from '@ove/designable-core'
+import { TreeNode } from 'ove-designable-core'
 import { useContext } from 'react'
 import { TreeNodeContext } from '../context'
 

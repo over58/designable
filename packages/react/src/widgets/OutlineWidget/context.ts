@@ -1,4 +1,4 @@
-import { TreeNode } from '@ove/designable-core'
+import { TreeNode } from 'ove-designable-core'
 import React, { createContext } from 'react'
 
 export interface INodeContext {

@@ -1,5 +1,5 @@
 import { IEngineContext } from '../../types'
-import { globalThisPolyfill } from '@ove/designable-shared'
+import { globalThisPolyfill } from 'ove-designable-shared'
 
 export interface ICursorEventOriginData {
   clientX: number

@@ -1,4 +1,4 @@
-import { EventDriver } from '@ove/designable-shared'
+import { EventDriver } from 'ove-designable-shared'
 import { Engine } from '../models/Engine'
 import { DragStartEvent, DragMoveEvent, DragStopEvent } from '../events'
 

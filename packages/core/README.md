@@ -1,1 +1,1 @@
-# @ove/designable-core
+# ove-designable-core

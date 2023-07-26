@@ -1,5 +1,5 @@
 import { observer, ReactFC } from '@formily/reactive-react'
-import { requestIdle } from '@ove/designable-shared'
+import { requestIdle } from 'ove-designable-shared'
 import cls from 'classnames'
 import React, { useEffect, useState } from 'react'
 import { usePrefix, useWorkbench } from '../hooks'

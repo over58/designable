@@ -4,7 +4,7 @@ import {
   createDesigner,
   GlobalRegistry,
   IResourceLike,
-} from '@ove/designable-core'
+} from 'ove-designable-core'
 import {
   CompositePanel,
   Designer,
@@ -21,8 +21,8 @@ import {
   ViewToolsWidget,
   Workbench,
   WorkspacePanel,
-} from '@ove/designable-react'
-import { SettingsForm } from '@ove/designable-react-settings-form'
+} from 'ove-designable-react'
+import { SettingsForm } from 'ove-designable-react-settings-form'
 import { Button, Radio, Space } from 'antd'
 import React, { createElement, useEffect, useMemo } from 'react'
 import { SchemaEditorWidget } from './widgets'
@@ -85,7 +85,7 @@ const Actions = observer(() => {
           GlobalRegistry.setDesignerLanguage(e.target.value)
         }}
       />
-      <Button href="https://github.com/pindjs/designable" target="_blank">
+      <Button href="https://github.com/over58/designable" target="_blank">
         <GithubOutlined />
         Github
       </Button>

@@ -1,6 +1,6 @@
 {
-  "name": "@ove/designable-formily-transformer",
-  "version": "0.0.1-alpha.1",
+  "name": "ove-designable-formily-transformer",
+  "version": "0.0.1-alpha.2",
   "license": "MIT",
   "main": "lib",
   "engines": {
@@ -33,8 +33,8 @@
     "@formily/json-schema": "^2.2.14"
   },
   "dependencies": {
-    "@ove/designable-core": "workspace:0.0.1-alpha.1",
-    "@ove/designable-shared": "workspace:0.0.1-alpha.1"
+    "ove-designable-core": "workspace:0.0.1-alpha.2",
+    "ove-designable-shared": "workspace:0.0.1-alpha.2"
   },
   "gitHead": "bda070c137ba0003cc4451b2208e089d2e326b23"
 }

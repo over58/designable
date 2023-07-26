@@ -67,7 +67,7 @@ export default defineConfig({
         'antd',
         'dayjs',
         // Designable
-        '@ove/designable-core',
+        'ove-designable-core',
 
         // Formily
         '@formily/react',
@@ -80,7 +80,7 @@ export default defineConfig({
           antd: 'antd',
           dayjs: 'dayjs',
           // Designable
-          '@ove/designable-core': 'Designable.Core',
+          'ove-designable-core': 'Designable.Core',
           // Formily
           '@formily/core': 'Formily.Core',
           '@formily/reactive': 'Formily.Reactive',

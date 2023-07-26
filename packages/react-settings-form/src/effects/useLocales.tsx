@@ -1,8 +1,8 @@
 import React from 'react'
 import { isVoidField, onFieldReact } from '@formily/core'
-import { TreeNode, GlobalRegistry } from '@ove/designable-core'
-import { isStr } from '@ove/designable-shared'
-import { IconWidget } from '@ove/designable-react'
+import { TreeNode, GlobalRegistry } from 'ove-designable-core'
+import { isStr } from 'ove-designable-shared'
+import { IconWidget } from 'ove-designable-react'
 
 const takeIcon = (message: string) => {
   if (!isStr(message)) return

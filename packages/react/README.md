@@ -1,1 +1,1 @@
-# @ove/designable-react
+# ove-designable-react

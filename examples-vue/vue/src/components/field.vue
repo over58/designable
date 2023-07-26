@@ -13,7 +13,7 @@
 </template>
 
 <script lang="ts" setup>
-import { useTreeNode } from '@ove/designable-vue'
+import { useTreeNode } from 'ove-designable-vue'
 
 const node = useTreeNode()
 </script>

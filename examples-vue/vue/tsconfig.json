@@ -13,8 +13,8 @@
     "skipLibCheck": true,
     "noEmit": true,
     "paths": {
-      "@ove/designable-*": ["../../packages/*/src"],
-      "@ove/designable-formily-*": ["../../formily/*/src"],
+      "ove-designable-*": ["../../packages/*/src"],
+      "ove-designable-formily-*": ["../../formily/*/src"],
       "@examples-vue/*": ["../../examples-vue/*/src"]
     }
   },

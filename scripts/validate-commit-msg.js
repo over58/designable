@@ -34,7 +34,7 @@ var error = function () {
   )
   console.log(
     'See our specific at:',
-    'https://github.com/pindjs/designable/blob/master/.github/GIT_COMMIT_SPECIFIC.md'
+    'https://github.com/over58/designable/blob/master/.github/GIT_COMMIT_SPECIFIC.md'
   )
 }
 

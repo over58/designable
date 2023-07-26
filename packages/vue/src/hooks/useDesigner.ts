@@ -1,4 +1,4 @@
-import { Engine } from '@ove/designable-core'
+import { Engine } from 'ove-designable-core'
 import { inject, Ref } from 'vue'
 import { DesignerEngineContext } from '../context'
 

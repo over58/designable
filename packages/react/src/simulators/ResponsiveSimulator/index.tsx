@@ -6,11 +6,11 @@ import {
   DragMoveEvent,
   DragStopEvent,
   CursorDragType,
-} from '@ove/designable-core'
+} from 'ove-designable-core'
 import {
   calcSpeedFactor,
   createUniformSpeedAnimation,
-} from '@ove/designable-shared'
+} from 'ove-designable-shared'
 import { useScreen, useDesigner, usePrefix } from '../../hooks'
 import { IconWidget } from '../../widgets'
 import { ResizeHandle, ResizeHandleType } from './handle'

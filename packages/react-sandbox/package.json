@@ -1,6 +1,6 @@
 {
-  "name": "@ove/designable-react-sandbox",
-  "version": "0.0.1-alpha.1",
+  "name": "ove-designable-react-sandbox",
+  "version": "0.0.1-alpha.2",
   "license": "MIT",
   "main": "lib",
   "types": "lib/index.d.ts",
@@ -10,12 +10,12 @@
   "module": "esm",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pindjs/designable.git"
+    "url": "git+https://github.com/over58/designable.git"
   },
   "bugs": {
-    "url": "https://github.com/pindjs/designable/issues"
+    "url": "https://github.com/over58/designable/issues"
   },
-  "homepage": "https://github.com/pindjs/designable#readme",
+  "homepage": "https://github.com/over58/designable#readme",
   "scripts": {
     "build": "rimraf -rf lib esm dist && npm run build:cjs && npm run build:esm && npm run build:umd",
     "build:cjs": "tsc --project tsconfig.build.json",
@@ -32,13 +32,14 @@
     "react": "^17.0.2"
   },
   "dependencies": {
-    "@ove/designable-react": "workspace:0.0.1-alpha.1",
-    "@ove/designable-shared": "workspace:0.0.1-alpha.1",
+    "ove-designable-react": "workspace:0.0.1-alpha.2",
+    "ove-designable-shared": "workspace:0.0.1-alpha.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
   },
   "gitHead": "bda070c137ba0003cc4451b2208e089d2e326b23"
 }

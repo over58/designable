@@ -1,5 +1,5 @@
 import { createContext } from 'react'
-import { TreeNode, Engine } from '@ove/designable-core'
+import { TreeNode, Engine } from 'ove-designable-core'
 import {
   IDesignerLayoutContext,
   IWorkspaceContext,

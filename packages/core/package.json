@@ -1,21 +1,22 @@
 {
-  "name": "@ove/designable-core",
-  "version": "0.0.1-alpha.1",
+  "name": "ove-designable-core",
+  "version": "0.0.1-alpha.2",
   "license": "MIT",
-  "main": "lib",
-  "types": "lib/index.d.ts",
+  "main": "esm",
+  "author": "yongchao9",
+  "types": "esm/index.d.ts",
   "engines": {
     "npm": ">=3.0.0"
   },
   "module": "esm",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pindjs/designable.git"
+    "url": "git+https://github.com/over58/designable.git"
   },
   "bugs": {
-    "url": "https://github.com/pindjs/designable/issues"
+    "url": "https://github.com/over58/designable/issues"
   },
-  "homepage": "https://github.com/pindjs/designable#readme",
+  "homepage": "https://github.com/over58/designable#readme",
   "scripts": {
     "build": "rimraf -rf lib esm dist && npm run build:cjs && npm run build:esm && npm run build:umd",
     "build:cjs": "tsc --project tsconfig.build.json",
@@ -33,10 +34,10 @@
   "dependencies": {
     "@formily/reactive": "^2.2.16",
     "@juggle/resize-observer": "^3.4.0",
-    "@ove/designable-shared": "workspace:0.0.1-alpha.1"
+    "ove-designable-shared": "workspace:0.0.1-alpha.2"
   },
   "publishConfig": {
-    "access": "public"
-  },
-  "gitHead": "bda070c137ba0003cc4451b2208e089d2e326b23"
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
 }

@@ -1,7 +1,7 @@
-# @ove/designable-formily-transformer
+# ove-designable-formily-transformer
 
 ### Install
 
 ```bash
-npm install --save @ove/designable-formily-transformer
+npm install --save ove-designable-formily-transformer
 ```

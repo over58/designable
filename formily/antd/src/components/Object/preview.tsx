@@ -1,6 +1,6 @@
 import React from 'react'
-import { createBehavior, createResource } from '@ove/designable-core'
-import { DnFC } from '@ove/designable-react'
+import { createBehavior, createResource } from 'ove-designable-core'
+import { DnFC } from 'ove-designable-react'
 import { createFieldSchema } from '../Field'
 import { Container } from '../../common/Container'
 import { AllLocales } from '../../locales'

@@ -1,4 +1,4 @@
-import { Event, globalThisPolyfill, uid } from '@ove/designable-shared'
+import { Event, globalThisPolyfill, uid } from 'ove-designable-shared'
 import { IEngineProps } from '../types'
 import { Cursor } from './Cursor'
 import { Keyboard } from './Keyboard'

@@ -1,1 +1,1 @@
-# @ove/designable-shared
+# ove-designable-shared

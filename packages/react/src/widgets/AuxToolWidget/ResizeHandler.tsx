@@ -1,5 +1,5 @@
 import { ReactFC } from '@formily/reactive-react'
-import { TreeNode } from '@ove/designable-core'
+import { TreeNode } from 'ove-designable-core'
 import cls from 'classnames'
 import React from 'react'
 import { useDesigner, usePrefix } from '../../hooks'

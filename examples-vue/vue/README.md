@@ -1,1 +1,1 @@
-# @ove/designable-playground
+# ove-designable-playground

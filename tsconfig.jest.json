@@ -3,7 +3,7 @@
   "compilerOptions": {
     "jsx": "react",
     "paths": {
-      "@ove/designable-*": ["./packages/*/src"]
+      "ove-designable-*": ["./packages/*/src"]
     }
   },
   "exclude": ["./packages/*/esm", "./packages/*/lib"]

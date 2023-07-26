@@ -1,1 +1,1 @@
-export * as Core from '@ove/designable-core'
+export * as Core from 'ove-designable-core'

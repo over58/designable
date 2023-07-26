@@ -1,6 +1,6 @@
 import React from 'react'
-import { ScreenType } from '@ove/designable-core'
-import { requestIdle } from '@ove/designable-shared'
+import { ScreenType } from 'ove-designable-core'
+import { requestIdle } from 'ove-designable-shared'
 import { observer } from '@formily/reactive-react'
 import { useScreen } from '../hooks'
 import {

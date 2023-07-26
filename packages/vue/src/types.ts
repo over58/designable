@@ -1,7 +1,9 @@
-import { IBehavior, IResource } from '@ove/designable-core'
+import { IBehavior, IResource } from 'ove-designable-core'
 import { defineComponent } from 'vue'
 
-type Component<P> = ReturnType<typeof defineComponent<P>>
+type Component<P extends Record<string, any>> = ReturnType<
+  typeof defineComponent<P>
+>
 
 export type DnFC<P = {}> = Component<P> & {
   Resource?: IResource[]

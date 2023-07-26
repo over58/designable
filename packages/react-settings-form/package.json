@@ -1,6 +1,6 @@
 {
-  "name": "@ove/designable-react-settings-form",
-  "version": "0.0.1-alpha.1",
+  "name": "ove-designable-react-settings-form",
+  "version": "0.0.1-alpha.3",
   "license": "MIT",
   "main": "lib",
   "types": "lib/index.d.ts",
@@ -10,12 +10,12 @@
   "module": "esm",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pindjs/designable.git"
+    "url": "git+https://github.com/over58/designable.git"
   },
   "bugs": {
-    "url": "https://github.com/pindjs/designable/issues"
+    "url": "https://github.com/over58/designable/issues"
   },
-  "homepage": "https://github.com/pindjs/designable#readme",
+  "homepage": "https://github.com/over58/designable#readme",
   "scripts": {
     "build": "rimraf -rf lib esm dist && npm run build:cjs && npm run build:esm && npm run build:umd && ts-node copy",
     "build:cjs": "tsc --project tsconfig.build.json",
@@ -29,8 +29,8 @@
     "@formily/reactive": "^2.2.14",
     "@formily/reactive-react": "^2.2.14",
     "@formily/shared": "^2.2.14",
-    "@types/react": "^18.0.0",
-    "@types/react-dom": "^18.0.0",
+    "@types/react": "^17.0.38",
+    "@types/react-dom": "^17.0.11",
     "dayjs": "^1.11.7",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
@@ -54,9 +54,9 @@
     "@formily/shared": "^2.2.16",
     "@monaco-editor/loader": "^1.3.2",
     "@monaco-editor/react": "^4.4.6",
-    "@ove/designable-core": "workspace:0.0.1-alpha.1",
-    "@ove/designable-react": "workspace:0.0.1-alpha.1",
-    "@ove/designable-shared": "workspace:0.0.1-alpha.1",
+    "ove-designable-core": "workspace:0.0.1-alpha.2",
+    "ove-designable-react": "workspace:0.0.1-alpha.2",
+    "ove-designable-shared": "workspace:0.0.1-alpha.2",
     "antd": "^5.1.2",
     "classnames": "^2.3.2",
     "monaco-editor": "^0.34.1",
@@ -64,7 +64,8 @@
     "react-color": "^2.19.3"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
   },
   "gitHead": "bda070c137ba0003cc4451b2208e089d2e326b23"
 }

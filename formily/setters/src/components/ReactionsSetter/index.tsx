@@ -2,10 +2,10 @@ import React, { useEffect, useMemo, useState } from 'react'
 import { clone, uid } from '@formily/shared'
 import { createForm, isVoidField } from '@formily/core'
 import { createSchemaField } from '@formily/react'
-import { GlobalRegistry } from '@ove/designable-core'
-import { requestIdle } from '@ove/designable-shared'
-import { usePrefix, TextWidget } from '@ove/designable-react'
-import { MonacoInput } from '@ove/designable-react-settings-form'
+import { GlobalRegistry } from 'ove-designable-core'
+import { requestIdle } from 'ove-designable-shared'
+import { usePrefix, TextWidget } from 'ove-designable-react'
+import { MonacoInput } from 'ove-designable-react-settings-form'
 import {
   Form,
   ArrayTable,

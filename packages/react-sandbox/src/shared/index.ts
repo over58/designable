@@ -1,4 +1,4 @@
-import { isFn, globalThisPolyfill } from '@ove/designable-shared'
+import { isFn, globalThisPolyfill } from 'ove-designable-shared'
 import ReactDOM from 'react-dom'
 import { useSandboxScope } from '../hooks'
 

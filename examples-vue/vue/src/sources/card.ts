@@ -1,5 +1,5 @@
-import { createBehavior, createResource } from '@ove/designable-core'
-import { DnFC } from '@ove/designable-vue'
+import { createBehavior, createResource } from 'ove-designable-core'
+import { DnFC } from 'ove-designable-vue'
 import { Card as InCard } from '../components'
 
 export const Card: DnFC = InCard
