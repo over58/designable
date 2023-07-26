@@ -5,12 +5,12 @@ type Component<P extends Record<string, any>> = ReturnType<
   typeof defineComponent<P>
 >
 
-export type DnFC<P = {}> = Component<P> & {
+export type DnFC<P extends Record<string, any>> = Component<P> & {
   Resource?: IResource[]
   Behavior?: IBehavior[]
 }
 
-export type DnComponent<P = {}> = Component<P> & {
+export type DnComponent<P extends Record<string, any>> = Component<P> & {
   Resource?: IResource[]
   Behavior?: IBehavior[]
 }
