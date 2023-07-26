@@ -1,6 +1,6 @@
 {
   "name": "ove-designable-formily-setters",
-  "version": "0.0.1-alpha.2",
+  "version": "0.0.2-alpha.0",
   "license": "MIT",
   "main": "lib",
   "module": "esm",
@@ -49,14 +49,14 @@
   },
   "dependencies": {
     "@formily/json-schema": "^2.2.16",
-    "ove-designable-core": "workspace:0.0.1-alpha.2",
-    "ove-designable-formily-transformer": "workspace:0.0.1-alpha.2",
-    "ove-designable-react": "workspace:0.0.1-alpha.2",
-    "ove-designable-react-settings-form": "workspace:0.0.1-alpha.2",
-    "ove-designable-shared": "workspace:0.0.1-alpha.2",
     "@types/react": "^17.0.38",
     "@types/react-dom": "^17.0.11",
-    "classnames": "^2.3.2"
+    "classnames": "^2.3.2",
+    "ove-designable-core": "0.0.2-alpha.0",
+    "ove-designable-formily-transformer": "0.0.2-alpha.0",
+    "ove-designable-react": "0.0.2-alpha.0",
+    "ove-designable-react-settings-form": "0.0.1-alpha.2",
+    "ove-designable-shared": "0.0.2-alpha.0"
   },
   "publishConfig": {
     "access": "public"

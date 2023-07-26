@@ -1,6 +1,6 @@
 {
   "name": "@examples-vue/vue",
-  "version": "0.0.1-alpha.2",
+  "version": "0.0.2-alpha.0",
   "license": "MIT",
   "private": true,
   "engines": {
@@ -20,9 +20,9 @@
     "@formily/reactive": "^2.2.16",
     "@formily/reactive-vue": "^2.2.16",
     "@formily/vue": "^2.2.16",
-    "ove-designable-core": "workspace:0.0.1-alpha.2",
-    "ove-designable-shared": "workspace:0.0.1-alpha.2",
-    "ove-designable-vue": "workspace:0.0.1-alpha.2"
+    "ove-designable-core": "0.0.2-alpha.0",
+    "ove-designable-shared": "0.0.2-alpha.0",
+    "ove-designable-vue": "0.0.2-alpha.0"
   },
   "gitHead": "820790a9ae32c2348bb36b3de7ca5f1051ed392c"
 }
