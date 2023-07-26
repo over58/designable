@@ -1,6 +1,6 @@
 {
-  "name": "@pind/designable-react",
-  "version": "2.0.0-beta.6",
+  "name": "@ove/designable-react",
+  "version": "1.0.0-alpha.1",
   "license": "MIT",
   "main": "lib",
   "types": "lib/index.d.ts",
@@ -34,8 +34,8 @@
     "@formily/reactive-react": "^2.2.14"
   },
   "dependencies": {
-    "@pind/designable-core": "workspace:2.0.0-beta.6",
-    "@pind/designable-shared": "workspace:2.0.0-beta.6",
+    "@ove/designable-core": "workspace:1.0.0-alpha.1",
+    "@ove/designable-shared": "workspace:1.0.0-alpha.1",
     "antd": "^5.1.2",
     "classnames": "^2.3.2",
     "dateformat": "^4.6.3"

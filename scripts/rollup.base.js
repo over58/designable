@@ -29,12 +29,12 @@ const presets = () => {
     '@formily/json-schema': 'Formily.JSONSchema',
     '@formily/react': 'Formily.React',
     '@formily/antd-v5': 'Formily.Antd',
-    '@pind/designable-shared': 'Designable.Shared',
-    '@pind/designable-core': 'Designable.Core',
-    '@pind/designable-react': 'Designable.React',
-    '@pind/designable-vue': 'Designable.Vue',
-    '@pind/designable-react-sandbox': 'Designable.ReactSandbox',
-    '@pind/designable-react-settings-form': 'Designable.ReactSettingsForm',
+    '@ove/designable-shared': 'Designable.Shared',
+    '@ove/designable-core': 'Designable.Core',
+    '@ove/designable-react': 'Designable.React',
+    '@ove/designable-vue': 'Designable.Vue',
+    '@ove/designable-react-sandbox': 'Designable.ReactSandbox',
+    '@ove/designable-react-settings-form': 'Designable.ReactSettingsForm',
   }
   return [
     typescript({

@@ -1,4 +1,4 @@
-import { IBehavior, IResource } from '@pind/designable-core'
+import { IBehavior, IResource } from '@ove/designable-core'
 import { defineComponent } from 'vue'
 
 type Component<P> = ReturnType<typeof defineComponent<P>>

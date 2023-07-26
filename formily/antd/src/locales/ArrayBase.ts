@@ -1,4 +1,4 @@
-import { GlobalRegistry } from '@pind/designable-core'
+import { GlobalRegistry } from '@ove/designable-core'
 
 GlobalRegistry.registerDesignerLocales({
   'zh-CN': {

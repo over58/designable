@@ -1,4 +1,4 @@
-import { TreeNode } from '@pind/designable-core'
+import { TreeNode } from '@ove/designable-core'
 import { useDesigner } from './useDesigner'
 import { useTreeNode } from './useTreeNode'
 

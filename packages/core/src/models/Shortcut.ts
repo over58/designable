@@ -1,4 +1,4 @@
-import { isFn, KeyCode } from '@pind/designable-shared'
+import { isFn, KeyCode } from '@ove/designable-shared'
 import { IEngineContext } from '../types'
 
 export { KeyCode }

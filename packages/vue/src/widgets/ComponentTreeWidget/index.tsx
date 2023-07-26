@@ -1,4 +1,4 @@
-import { Engine, GlobalRegistry, TreeNode } from '@pind/designable-core'
+import { Engine, GlobalRegistry, TreeNode } from '@ove/designable-core'
 import { observer } from '@formily/reactive-vue'
 import {
   computed,

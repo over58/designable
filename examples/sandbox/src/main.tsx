@@ -6,7 +6,7 @@ import {
   createDesigner,
   createResource,
   GlobalRegistry,
-} from '@pind/designable-core'
+} from '@ove/designable-core'
 import {
   CompositePanel,
   Designer,
@@ -23,9 +23,9 @@ import {
   ViewToolsWidget,
   Workbench,
   WorkspacePanel,
-} from '@pind/designable-react'
-import { Sandbox } from '@pind/designable-react-sandbox'
-import { MonacoInput, SettingsForm } from '@pind/designable-react-settings-form'
+} from '@ove/designable-react'
+import { Sandbox } from '@ove/designable-react-sandbox'
+import { MonacoInput, SettingsForm } from '@ove/designable-react-settings-form'
 import { Button, Radio, Space } from 'antd'
 import React, { useEffect, useMemo } from 'react'
 import { createRoot } from 'react-dom/client'
