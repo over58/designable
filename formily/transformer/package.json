@@ -1,6 +1,6 @@
 {
   "name": "ove-designable-formily-transformer",
-  "version": "0.0.1-alpha.2",
+  "version": "0.0.2-alpha.0",
   "license": "MIT",
   "main": "lib",
   "engines": {
@@ -13,9 +13,9 @@
   },
   "types": "esm/index.d.ts",
   "bugs": {
-    "url": "https://github.com/pindjs/designable/issues"
+    "url": "https://github.com/over58/designable/pulls"
   },
-  "homepage": "https://github.com/pindjs/designable#readme",
+  "homepage": "https://github.com/over58/designable#readme",
   "scripts": {
     "build": "rimraf -rf lib esm dist && npm run build:cjs && npm run build:esm",
     "build:cjs": "tsc --project tsconfig.build.json",
@@ -33,8 +33,8 @@
     "@formily/json-schema": "^2.2.14"
   },
   "dependencies": {
-    "ove-designable-core": "workspace:0.0.1-alpha.2",
-    "ove-designable-shared": "workspace:0.0.1-alpha.2"
+    "ove-designable-core": "workspace:0.0.2-alpha.0",
+    "ove-designable-shared": "workspace:0.0.2-alpha.0"
   },
   "gitHead": "bda070c137ba0003cc4451b2208e089d2e326b23"
 }
