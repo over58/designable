@@ -1,6 +1,6 @@
 {
   "name": "ove-designable-core",
-  "version": "0.0.3-alpha.0",
+  "version": "0.0.4-alpha.0",
   "license": "MIT",
   "main": "esm",
   "author": "yongchao9",
@@ -8,6 +8,14 @@
   "engines": {
     "npm": ">=3.0.0"
   },
+  "files": [
+    "lib",
+    "dist",
+    "esm",
+    "package.json",
+    "LICENSE.md",
+    "README.md"
+  ],
   "module": "esm",
   "repository": {
     "type": "git",
@@ -34,7 +42,7 @@
   "dependencies": {
     "@formily/reactive": "^2.2.16",
     "@juggle/resize-observer": "^3.4.0",
-    "ove-designable-shared": "0.0.3-alpha.0"
+    "ove-designable-shared": "0.0.4-alpha.0"
   },
   "publishConfig": {
     "access": "public",

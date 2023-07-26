@@ -180,12 +180,12 @@ importers:
       antd: ^5.1.2
       classnames: ^2.3.2
       less: ^3.13.1
-      ove-designable-core: workspace:0.0.3-alpha.0
-      ove-designable-react: workspace:0.0.3-alpha.0
-      ove-designable-react-sandbox: workspace:0.0.3-alpha.0
-      ove-designable-react-settings-form: workspace:0.0.3-alpha.0
-      ove-designable-shared: workspace:0.0.3-alpha.0
-      ove-designable-vue: workspace:0.0.3-alpha.0
+      ove-designable-core: workspace:0.0.4-alpha.0
+      ove-designable-react: workspace:0.0.4-alpha.0
+      ove-designable-react-sandbox: workspace:0.0.4-alpha.0
+      ove-designable-react-settings-form: workspace:0.0.4-alpha.0
+      ove-designable-shared: workspace:0.0.4-alpha.0
+      ove-designable-vue: workspace:0.0.4-alpha.0
       react: ^17.0.2
       react-dom: ^17.0.2
       ts-loader: ^7.0.5
@@ -233,11 +233,11 @@ importers:
       '@types/react-dom': ^17.0.11
       antd: ^5.1.2
       classnames: ^2.3.2
-      ove-designable-core: workspace:0.0.3-alpha.0
-      ove-designable-react: workspace:0.0.3-alpha.0
-      ove-designable-react-sandbox: workspace:0.0.3-alpha.0
-      ove-designable-react-settings-form: workspace:0.0.3-alpha.0
-      ove-designable-shared: workspace:0.0.3-alpha.0
+      ove-designable-core: workspace:0.0.4-alpha.0
+      ove-designable-react: workspace:0.0.4-alpha.0
+      ove-designable-react-sandbox: workspace:0.0.4-alpha.0
+      ove-designable-react-settings-form: workspace:0.0.4-alpha.0
+      ove-designable-shared: workspace:0.0.4-alpha.0
       react: ^17.0.2
       react-dom: ^17.0.2
       typescript: ^4.9.5
@@ -268,9 +268,9 @@ importers:
       '@formily/reactive-vue': ^2.2.16
       '@formily/vue': ^2.2.16
       eslint: ^8.31.0
-      ove-designable-core: workspace:0.0.3-alpha.0
-      ove-designable-shared: workspace:0.0.3-alpha.0
-      ove-designable-vue: workspace:0.0.3-alpha.0
+      ove-designable-core: workspace:0.0.4-alpha.0
+      ove-designable-shared: workspace:0.0.4-alpha.0
+      ove-designable-vue: workspace:0.0.4-alpha.0
       typescript: ^4.9.5
       vue: ^3.2.0
       vue-eslint-parser: ^9.0.0
@@ -303,11 +303,11 @@ importers:
       '@vitejs/plugin-react-swc': ^3.0.0
       antd: ^5.1.2
       less: ^3.13.1
-      ove-designable-core: workspace:0.0.3-alpha.0
-      ove-designable-react: workspace:0.0.3-alpha.0
-      ove-designable-react-sandbox: workspace:0.0.3-alpha.0
-      ove-designable-react-settings-form: workspace:0.0.3-alpha.0
-      ove-designable-shared: workspace:0.0.3-alpha.0
+      ove-designable-core: workspace:0.0.4-alpha.0
+      ove-designable-react: workspace:0.0.4-alpha.0
+      ove-designable-react-sandbox: workspace:0.0.4-alpha.0
+      ove-designable-react-settings-form: workspace:0.0.4-alpha.0
+      ove-designable-shared: workspace:0.0.4-alpha.0
       react: ^17.0.2
       react-dom: ^17.0.2
       ts-loader: ^7.0.5
@@ -354,11 +354,11 @@ importers:
       '@vitejs/plugin-react-swc': ^3.0.0
       antd: ^5.1.2
       less: ^3.13.1
-      ove-designable-core: workspace:0.0.3-alpha.0
-      ove-designable-react: workspace:0.0.3-alpha.0
-      ove-designable-react-sandbox: workspace:0.0.3-alpha.0
-      ove-designable-react-settings-form: workspace:0.0.3-alpha.0
-      ove-designable-shared: workspace:0.0.3-alpha.0
+      ove-designable-core: workspace:0.0.4-alpha.0
+      ove-designable-react: workspace:0.0.4-alpha.0
+      ove-designable-react-sandbox: workspace:0.0.4-alpha.0
+      ove-designable-react-settings-form: workspace:0.0.4-alpha.0
+      ove-designable-shared: workspace:0.0.4-alpha.0
       react: ^17.0.2
       react-dom: ^17.0.2
       ts-loader: ^7.0.5
@@ -406,11 +406,11 @@ importers:
       '@vitejs/plugin-react-swc': ^3.0.0
       antd: ^5.1.2
       less: ^3.13.1
-      ove-designable-core: workspace:0.0.3-alpha.0
-      ove-designable-react: workspace:0.0.3-alpha.0
-      ove-designable-react-sandbox: workspace:0.0.3-alpha.0
-      ove-designable-react-settings-form: workspace:0.0.3-alpha.0
-      ove-designable-shared: workspace:0.0.3-alpha.0
+      ove-designable-core: workspace:0.0.4-alpha.0
+      ove-designable-react: workspace:0.0.4-alpha.0
+      ove-designable-react-sandbox: workspace:0.0.4-alpha.0
+      ove-designable-react-settings-form: workspace:0.0.4-alpha.0
+      ove-designable-shared: workspace:0.0.4-alpha.0
       react: ^17.0.2
       react-dom: ^17.0.2
       ts-loader: ^7.0.5
@@ -458,11 +458,11 @@ importers:
       '@vitejs/plugin-react-swc': ^3.0.0
       antd: ^5.1.2
       less: ^3.13.1
-      ove-designable-core: workspace:0.0.3-alpha.0
-      ove-designable-react: workspace:0.0.3-alpha.0
-      ove-designable-react-sandbox: workspace:0.0.3-alpha.0
-      ove-designable-react-settings-form: workspace:0.0.3-alpha.0
-      ove-designable-shared: workspace:0.0.3-alpha.0
+      ove-designable-core: workspace:0.0.4-alpha.0
+      ove-designable-react: workspace:0.0.4-alpha.0
+      ove-designable-react-sandbox: workspace:0.0.4-alpha.0
+      ove-designable-react-settings-form: workspace:0.0.4-alpha.0
+      ove-designable-shared: workspace:0.0.4-alpha.0
       react: ^17.0.2
       react-dom: ^17.0.2
       ts-loader: ^7.0.5
@@ -511,11 +511,11 @@ importers:
       antd: ^5.1.2
       classnames: ^2.3.2
       less: ^3.13.1
-      ove-designable-core: workspace:0.0.3-alpha.0
-      ove-designable-formily-setters: workspace:0.0.3-alpha.0
-      ove-designable-formily-transformer: workspace:0.0.3-alpha.0
-      ove-designable-react: workspace:0.0.3-alpha.0
-      ove-designable-react-settings-form: workspace:0.0.3-alpha.0
+      ove-designable-core: workspace:0.0.4-alpha.0
+      ove-designable-formily-setters: workspace:0.0.4-alpha.0
+      ove-designable-formily-transformer: workspace:0.0.4-alpha.0
+      ove-designable-react: workspace:0.0.4-alpha.0
+      ove-designable-react-settings-form: workspace:0.0.4-alpha.0
       react: ^17.0.2
       react-dom: ^17.0.2
       react-error-boundary: ^3.1.4
@@ -564,11 +564,11 @@ importers:
       '@types/react-dom': ^17.0.11
       antd: ^5.1.2
       classnames: ^2.3.2
-      ove-designable-core: workspace:0.0.3-alpha.0
-      ove-designable-formily-transformer: workspace:0.0.3-alpha.0
-      ove-designable-react: workspace:0.0.3-alpha.0
-      ove-designable-react-settings-form: workspace:0.0.3-alpha.0
-      ove-designable-shared: workspace:0.0.3-alpha.0
+      ove-designable-core: workspace:0.0.4-alpha.0
+      ove-designable-formily-transformer: workspace:0.0.4-alpha.0
+      ove-designable-react: workspace:0.0.4-alpha.0
+      ove-designable-react-settings-form: workspace:0.0.4-alpha.0
+      ove-designable-shared: workspace:0.0.4-alpha.0
       react: ^17.0.2
       react-dom: ^17.0.2
     dependencies:
@@ -596,8 +596,8 @@ importers:
     specifiers:
       '@formily/core': ^2.2.16
       '@formily/json-schema': ^2.2.16
-      ove-designable-core: workspace:0.0.3-alpha.0
-      ove-designable-shared: workspace:0.0.3-alpha.0
+      ove-designable-core: workspace:0.0.4-alpha.0
+      ove-designable-shared: workspace:0.0.4-alpha.0
     dependencies:
       ove-designable-core: link:../../packages/core
       ove-designable-shared: link:../../packages/shared
@@ -611,7 +611,7 @@ importers:
       '@formily/path': ^2.2.16
       '@formily/reactive': ^2.2.16
       '@juggle/resize-observer': ^3.4.0
-      ove-designable-shared: workspace:0.0.3-alpha.0
+      ove-designable-shared: workspace:0.0.4-alpha.0
     dependencies:
       '@formily/reactive': 2.2.27
       '@juggle/resize-observer': 3.4.0
@@ -629,8 +629,8 @@ importers:
       antd: ^5.1.2
       classnames: ^2.3.2
       dateformat: ^4.6.3
-      ove-designable-core: workspace:0.0.3-alpha.0
-      ove-designable-shared: workspace:0.0.3-alpha.0
+      ove-designable-core: workspace:0.0.4-alpha.0
+      ove-designable-shared: workspace:0.0.4-alpha.0
       react: ^18.2.0
     dependencies:
       antd: 5.7.3_sgv4m26tnl4echlq645clg5jc4
@@ -649,8 +649,8 @@ importers:
     specifiers:
       '@types/react': ^17.0.38
       '@types/react-dom': ^17.0.11
-      ove-designable-react: workspace:0.0.3-alpha.0
-      ove-designable-shared: workspace:0.0.3-alpha.0
+      ove-designable-react: workspace:0.0.4-alpha.0
+      ove-designable-shared: workspace:0.0.4-alpha.0
       react: ^17.0.2
       react-dom: ^17.0.2
     dependencies:
@@ -681,9 +681,9 @@ importers:
       classnames: ^2.3.2
       dayjs: ^1.11.7
       monaco-editor: ^0.34.1
-      ove-designable-core: workspace:0.0.3-alpha.0
-      ove-designable-react: workspace:0.0.3-alpha.0
-      ove-designable-shared: workspace:0.0.3-alpha.0
+      ove-designable-core: workspace:0.0.4-alpha.0
+      ove-designable-react: workspace:0.0.4-alpha.0
+      ove-designable-shared: workspace:0.0.4-alpha.0
       prettier: ^2.8.1
       react: ^17.0.2
       react-color: ^2.19.3
@@ -727,8 +727,8 @@ importers:
       '@formily/reactive-vue': ^2.2.16
       classnames: ^2.3.2
       dateformat: ^4.6.3
-      ove-designable-core: workspace:0.0.3-alpha.0
-      ove-designable-shared: workspace:0.0.3-alpha.0
+      ove-designable-core: workspace:0.0.4-alpha.0
+      ove-designable-shared: workspace:0.0.4-alpha.0
       vue: ^3.2.0
     dependencies:
       classnames: 2.3.2

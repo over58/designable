@@ -1,12 +1,20 @@
 {
   "name": "ove-designable-react-settings-form",
-  "version": "0.0.3-alpha.0",
+  "version": "0.0.4-alpha.0",
   "license": "MIT",
   "main": "lib",
   "types": "lib/index.d.ts",
   "engines": {
     "npm": ">=3.0.0"
   },
+  "files": [
+    "lib",
+    "dist",
+    "esm",
+    "package.json",
+    "LICENSE.md",
+    "README.md"
+  ],
   "module": "esm",
   "repository": {
     "type": "git",
@@ -57,9 +65,9 @@
     "antd": "^5.1.2",
     "classnames": "^2.3.2",
     "monaco-editor": "^0.34.1",
-    "ove-designable-core": "0.0.3-alpha.0",
-    "ove-designable-react": "0.0.3-alpha.0",
-    "ove-designable-shared": "0.0.3-alpha.0",
+    "ove-designable-core": "0.0.4-alpha.0",
+    "ove-designable-react": "0.0.4-alpha.0",
+    "ove-designable-shared": "0.0.4-alpha.0",
     "prettier": "^2.8.1",
     "react-color": "^2.19.3"
   },
