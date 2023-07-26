@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react'
-import { createRoot } from 'react-dom/client'
+import ReactDOM from 'react-dom'
 import {
   Designer,
   DesignerToolsWidget,
@@ -135,10 +135,4 @@ const App = () => {
   )
 }
 
-const container = document.getElementById('root')
-if (container) {
-  const root = createRoot(container)
-  root.render(<App />)
-} else {
-  console.error('dom root is non-existent')
-}
+ReactDOM.render(<App />, document.getElementById('root'))

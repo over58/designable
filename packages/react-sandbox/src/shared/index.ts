@@ -1,15 +1,14 @@
 import { isFn, globalThisPolyfill } from '@ove/designable-shared'
-import { createRoot } from 'react-dom/client'
+import ReactDOM from 'react-dom'
 import { useSandboxScope } from '../hooks'
 
 export const renderSandboxContent = (render: (scope?: any) => JSX.Element) => {
   if (isFn(render)) {
     const container = document.getElementById('__SANDBOX_ROOT__')
     if (container) {
-      const root = createRoot(container)
-      root.render(render(useSandboxScope()))
+      ReactDOM.render(render(useSandboxScope()), container)
       globalThisPolyfill.addEventListener('unload', () => {
-        root.unmount()
+        ReactDOM.unmountComponentAtNode(container)
       })
     } else {
       console.error('dom __SANDBOX_ROOT__ is non-existent')

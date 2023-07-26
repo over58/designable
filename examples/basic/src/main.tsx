@@ -26,7 +26,7 @@ import {
 import { MonacoInput, SettingsForm } from '@ove/designable-react-settings-form'
 import { Button, Radio, Space } from 'antd'
 import React, { useEffect } from 'react'
-import { createRoot } from 'react-dom/client'
+import ReactDOM from 'react-dom'
 import { Content } from './content'
 
 const RootBehavior = createBehavior({
@@ -450,10 +450,4 @@ const App = () => {
     </Designer>
   )
 }
-const container = document.getElementById('root')
-if (container) {
-  const root = createRoot(container)
-  root.render(<App />)
-} else {
-  console.error('dom root is non-existent')
-}
+ReactDOM.render(<App />, document.getElementById('root'))
