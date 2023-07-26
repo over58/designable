@@ -1,6 +1,6 @@
 {
   "name": "ove-designable-react",
-  "version": "0.0.2-alpha.1",
+  "version": "0.0.3-alpha.0",
   "license": "MIT",
   "main": "lib",
   "types": "lib/index.d.ts",
@@ -37,8 +37,8 @@
     "antd": "^5.1.2",
     "classnames": "^2.3.2",
     "dateformat": "^4.6.3",
-    "ove-designable-core": "workspace:0.0.2-alpha.1",
-    "ove-designable-shared": "workspace:0.0.2-alpha.1"
+    "ove-designable-core": "workspace:0.0.3-alpha.0",
+    "ove-designable-shared": "workspace:0.0.3-alpha.0"
   },
   "publishConfig": {
     "access": "public",

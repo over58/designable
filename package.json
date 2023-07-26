@@ -4,7 +4,6 @@
   "devEngines": {
     "node": "14.x"
   },
-  "type": "module",
   "workspaces": [
     "packages/*",
     "formily/*",
@@ -30,7 +29,7 @@
     "test:watch": "jest --watch",
     "test:prod": "jest --coverage --silent",
     "preversion": "npm run build && npm run lint",
-    "version": "ts-node --esm scripts/release changelog && git add -A",
+    "version": "ts-node scripts/release changelog && git add -A",
     "version:alpha": "lerna version prerelease --preid alpha",
     "version:beta": "lerna version prerelease --preid beta",
     "version:rc": "lerna version prerelease --preid rc",
