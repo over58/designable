@@ -1,12 +1,20 @@
 {
   "name": "ove-designable-shared",
-  "version": "0.0.2-alpha.0",
+  "version": "0.0.4-alpha.0",
   "license": "MIT",
   "main": "lib",
   "types": "lib/index.d.ts",
   "engines": {
     "npm": ">=3.0.0"
   },
+  "files": [
+    "lib",
+    "dist",
+    "esm",
+    "package.json",
+    "LICENSE.md",
+    "README.md"
+  ],
   "module": "esm",
   "repository": {
     "type": "git",
@@ -29,5 +37,5 @@
   "dependencies": {
     "requestidlecallback": "^0.3.0"
   },
-  "gitHead": "bda070c137ba0003cc4451b2208e089d2e326b23"
+  "gitHead": "58af881a2f7f4ac0b833fbb3203100ccc0dfba69"
 }

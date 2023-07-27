@@ -1,6 +1,6 @@
 {
   "name": "ove-designable-multi-workspace-example",
-  "version": "0.0.2-alpha.0",
+  "version": "0.0.4-alpha.0",
   "license": "MIT",
   "private": true,
   "engines": {
@@ -28,11 +28,11 @@
     "@formily/reactive": "^2.2.16",
     "@formily/reactive-react": "^2.2.16",
     "antd": "^5.1.2",
-    "ove-designable-core": "0.0.2-alpha.0",
-    "ove-designable-react": "0.0.2-alpha.0",
-    "ove-designable-react-sandbox": "0.0.2-alpha.0",
-    "ove-designable-react-settings-form": "0.0.1-alpha.2",
-    "ove-designable-shared": "0.0.2-alpha.0",
+    "ove-designable-core": "workspace:0.0.4-alpha.0",
+    "ove-designable-react": "workspace:0.0.4-alpha.0",
+    "ove-designable-react-sandbox": "workspace:0.0.4-alpha.0",
+    "ove-designable-react-settings-form": "workspace:0.0.4-alpha.0",
+    "ove-designable-shared": "workspace:0.0.4-alpha.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },

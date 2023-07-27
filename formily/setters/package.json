@@ -1,6 +1,6 @@
 {
   "name": "ove-designable-formily-setters",
-  "version": "0.0.2-alpha.0",
+  "version": "0.0.4-alpha.0",
   "license": "MIT",
   "main": "lib",
   "module": "esm",
@@ -10,14 +10,22 @@
   },
   "types": "esm/index.d.ts",
   "bugs": {
-    "url": "https://github.com/pindjs/designable/issues"
+    "url": "https://github.com/over58/designable/pulls"
   },
-  "homepage": "https://github.com/pindjs/designable#readme",
+  "homepage": "https://github.com/over58/designable#readme",
   "engines": {
     "npm": ">=3.0.0"
   },
+  "files": [
+    "lib",
+    "dist",
+    "esm",
+    "package.json",
+    "LICENSE.md",
+    "README.md"
+  ],
   "scripts": {
-    "build": "rimraf -rf lib esm dist && npm run build:cjs && npm run build:esm && ts-node copy",
+    "build": "rimraf -rf lib esm dist && npm run build:cjs && npm run build:esm && node copy.js",
     "build:cjs": "tsc --project tsconfig.build.json",
     "build:esm": "tsc --project tsconfig.build.json --module es2015 --outDir esm",
     "start": "webpack-dev-server --config playground/webpack.dev.ts"
@@ -52,14 +60,14 @@
     "@types/react": "^17.0.38",
     "@types/react-dom": "^17.0.11",
     "classnames": "^2.3.2",
-    "ove-designable-core": "0.0.2-alpha.0",
-    "ove-designable-formily-transformer": "0.0.2-alpha.0",
-    "ove-designable-react": "0.0.2-alpha.0",
-    "ove-designable-react-settings-form": "0.0.1-alpha.2",
-    "ove-designable-shared": "0.0.2-alpha.0"
+    "ove-designable-core": "0.0.4-alpha.0",
+    "ove-designable-formily-transformer": "0.0.4-alpha.0",
+    "ove-designable-react": "0.0.4-alpha.0",
+    "ove-designable-react-settings-form": "0.0.4-alpha.0",
+    "ove-designable-shared": "0.0.4-alpha.0"
   },
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "2c44ae410a73f02735c63c6430e021a50e21f3ec"
+  "gitHead": "58af881a2f7f4ac0b833fbb3203100ccc0dfba69"
 }
