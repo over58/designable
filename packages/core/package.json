@@ -1,6 +1,6 @@
 {
   "name": "ove-designable-core",
-  "version": "0.0.4-alpha.0",
+  "version": "0.0.4-alpha.1",
   "license": "MIT",
   "main": "esm",
   "author": "yongchao9",
@@ -43,7 +43,7 @@
   "dependencies": {
     "@formily/reactive": "^2.2.16",
     "@juggle/resize-observer": "^3.4.0",
-    "ove-designable-shared": "0.0.4-alpha.0"
+    "ove-designable-shared": "0.0.4-alpha.1"
   },
   "publishConfig": {
     "access": "public",

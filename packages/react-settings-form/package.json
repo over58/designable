@@ -1,6 +1,6 @@
 {
   "name": "ove-designable-react-settings-form",
-  "version": "0.0.4-alpha.0",
+  "version": "0.0.4-alpha.1",
   "license": "MIT",
   "main": "lib",
   "types": "lib/index.d.ts",
@@ -66,9 +66,9 @@
     "antd": "^5.1.2",
     "classnames": "^2.3.2",
     "monaco-editor": "^0.34.1",
-    "ove-designable-core": "0.0.4-alpha.0",
-    "ove-designable-react": "0.0.4-alpha.0",
-    "ove-designable-shared": "0.0.4-alpha.0",
+    "ove-designable-core": "0.0.4-alpha.1",
+    "ove-designable-react": "0.0.4-alpha.1",
+    "ove-designable-shared": "0.0.4-alpha.1",
     "prettier": "^2.8.1",
     "react-color": "^2.19.3"
   },

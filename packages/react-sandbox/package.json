@@ -1,6 +1,6 @@
 {
   "name": "ove-designable-react-sandbox",
-  "version": "0.0.4-alpha.0",
+  "version": "0.0.4-alpha.1",
   "license": "MIT",
   "main": "lib",
   "types": "lib/index.d.ts",
@@ -41,8 +41,8 @@
     "react": "^17.0.2"
   },
   "dependencies": {
-    "ove-designable-react": "0.0.4-alpha.0",
-    "ove-designable-shared": "0.0.4-alpha.0",
+    "ove-designable-react": "0.0.4-alpha.1",
+    "ove-designable-shared": "0.0.4-alpha.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
