@@ -12,6 +12,7 @@
     "lib",
     "dist",
     "esm",
+    "src",
     "package.json",
     "LICENSE.md",
     "README.md"

@@ -20,6 +20,7 @@
     "lib",
     "dist",
     "esm",
+    "src",
     "playground",
     "package.json",
     "LICENSE.md",
