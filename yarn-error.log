@@ -29,7 +29,7 @@ npm manifest:
       "formily/*",
       "examples/*"
     ],
-    "scope": "ove-",
+    "scope": "@over58/",
     "resolutions": {
       "@formily/react": "^2.2.14"
     },

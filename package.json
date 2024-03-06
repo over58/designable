@@ -10,7 +10,7 @@
     "formily/*",
     "examples/*"
   ],
-  "scope": "ove-",
+  "scope": "@over58",
   "resolutions": {
     "@formily/react": "^2.2.14"
   },
@@ -24,10 +24,8 @@
     "start:sandbox": "lerna run --scope='ove-designable-sandbox-example' start",
     "start:multi-workspace": "lerna run --scope='ove-designable-multi-workspace-example' start",
     "start:sandbox-multi-workspace": "lerna run --scope='ove-designable-sandbox-multi-workspace-example' start",
-    "test": "jest --coverage",
-    "test:watch": "jest --watch",
-    "test:prod": "jest --coverage --silent",
     "preversion": "npm run build && npm run lint",
+    "test":"npm run lint",
     "version": "ts-node scripts/release changelog && git add -A",
     "version:alpha": "lerna version prerelease --preid alpha",
     "version:beta": "lerna version prerelease --preid beta",

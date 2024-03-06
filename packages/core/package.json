@@ -1,5 +1,5 @@
 {
-  "name": "ove-designable-core",
+  "name": "@over58/designable-core",
   "version": "0.0.4-alpha.5",
   "license": "MIT",
   "type": "module",
@@ -44,7 +44,7 @@
   "dependencies": {
     "@formily/reactive": "^2.2.16",
     "@juggle/resize-observer": "^3.4.0",
-    "ove-designable-shared": "0.0.4-alpha.5"
+    "@over58/designable-shared": "0.0.4-alpha.5"
   },
   "publishConfig": {
     "access": "public",

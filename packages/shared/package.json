@@ -1,5 +1,5 @@
 {
-  "name": "ove-designable-shared",
+  "name": "@over58/designable-shared",
   "version": "0.0.4-alpha.5",
   "license": "MIT",
   "main": "lib",

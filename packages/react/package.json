@@ -1,5 +1,5 @@
 {
-  "name": "ove-designable-react",
+  "name": "@over58/designable-react",
   "version": "0.0.4-alpha.5",
   "license": "MIT",
   "type": "module",
@@ -47,8 +47,8 @@
     "antd": "^5.1.2",
     "classnames": "^2.3.2",
     "dateformat": "^4.6.3",
-    "ove-designable-core": "0.0.4-alpha.5",
-    "ove-designable-shared": "0.0.4-alpha.5"
+    "@over58/designable-core": "0.0.4-alpha.5",
+    "@over58/designable-shared": "0.0.4-alpha.5"
   },
   "publishConfig": {
     "access": "public",

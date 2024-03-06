@@ -16,8 +16,8 @@
     "downlevelIteration": true,
     "baseUrl": ".",
     "paths": {
-      "ove-designable-*": ["./packages/*/src"],
-      "ove-designable-formily-*": ["./formily/*/src"]
+      "@over58/designable-*": ["./packages/*/src"],
+      "@over58/designable-formily-*": ["./formily/*/src"]
     },
     "lib": ["DOM", "DOM.Iterable"],
   },

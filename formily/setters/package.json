@@ -1,5 +1,5 @@
 {
-  "name": "ove-designable-formily-setters",
+  "name": "@over58/designable-formily-setters",
   "version": "0.0.4-alpha.5",
   "license": "MIT",
   "main": "lib",
@@ -62,11 +62,11 @@
     "@types/react": "^17.0.38",
     "@types/react-dom": "^17.0.11",
     "classnames": "^2.3.2",
-    "ove-designable-core": "0.0.4-alpha.5",
-    "ove-designable-formily-transformer": "0.0.4-alpha.5",
-    "ove-designable-react": "0.0.4-alpha.5",
-    "ove-designable-react-settings-form": "0.0.4-alpha.5",
-    "ove-designable-shared": "0.0.4-alpha.5"
+    "@over58/designable-core": "0.0.4-alpha.5",
+    "@over58/designable-formily-transformer": "0.0.4-alpha.5",
+    "@over58/designable-react": "0.0.4-alpha.5",
+    "@over58/designable-react-settings-form": "0.0.4-alpha.5",
+    "@over58/designable-shared": "0.0.4-alpha.5"
   },
   "publishConfig": {
     "access": "public"
