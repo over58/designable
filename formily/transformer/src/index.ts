@@ -1,6 +1,6 @@
 import { ISchema, Schema } from '@formily/json-schema'
-import { ITreeNode } from 'ove-designable-core'
-import { clone, uid } from 'ove-designable-shared'
+import { ITreeNode } from '@over58/designable-core'
+import { clone, uid } from '@over58/designable-shared'
 
 export interface ITransformerOptions {
   designableFieldName?: string

@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react'
-import { TreeNode, ITreeNode, WorkbenchTypes } from 'ove-designable-core'
+import { TreeNode, ITreeNode, WorkbenchTypes } from '@over58/designable-core'
 import { observer } from '@formily/reactive-react'
 import { useTree, useWorkbench } from '../hooks'
 import { Viewport } from '../containers'
-import { requestIdle } from 'ove-designable-shared'
+import { requestIdle } from '@over58/designable-shared'
 
 export interface IViewPanelProps {
   type: WorkbenchTypes

@@ -1,6 +1,6 @@
 import { Engine } from './Engine'
 import { action, define, observable } from '@formily/reactive'
-import { globalThisPolyfill, isValidNumber } from 'ove-designable-shared'
+import { globalThisPolyfill, isValidNumber } from '@over58/designable-shared'
 
 export enum CursorStatus {
   Normal = 'NORMAL',

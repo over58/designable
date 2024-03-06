@@ -1,4 +1,4 @@
-import { createLocales } from 'ove-designable-core'
+import { createLocales } from '@over58/designable-core'
 import { DatePicker } from './DatePicker'
 
 export const TimePicker = createLocales(DatePicker, {

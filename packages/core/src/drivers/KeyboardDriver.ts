@@ -1,4 +1,4 @@
-import { EventDriver } from 'ove-designable-shared'
+import { EventDriver } from '@over58/designable-shared'
 import { KeyDownEvent, KeyUpEvent } from '../events'
 
 function filter(event: KeyboardEvent) {

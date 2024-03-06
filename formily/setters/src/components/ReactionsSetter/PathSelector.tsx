@@ -1,6 +1,6 @@
 import React, { ReactNode } from 'react'
-import { TreeNode } from 'ove-designable-core'
-import { useSelectedNode } from 'ove-designable-react'
+import { TreeNode } from '@over58/designable-core'
+import { useSelectedNode } from '@over58/designable-react'
 import { TreeSelectProps, TreeSelect } from 'antd'
 
 export interface IPathSelectorProps

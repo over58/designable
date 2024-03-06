@@ -1,4 +1,4 @@
-import { IEventProps, Event } from 'ove-designable-shared'
+import { IEventProps, Event } from '@over58/designable-shared'
 import { ISchema } from '@formily/json-schema'
 import {
   Engine,

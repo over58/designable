@@ -5,7 +5,7 @@ import {
   createDesigner,
   createResource,
   GlobalRegistry,
-} from 'ove-designable-core'
+} from '@over58/designable-core'
 import {
   CompositePanel,
   Designer,
@@ -22,13 +22,12 @@ import {
   ViewToolsWidget,
   Workbench,
   WorkspacePanel,
-} from 'ove-designable-react'
-import { MonacoInput, SettingsForm } from 'ove-designable-react-settings-form'
+} from '@over58/designable-react'
+import { MonacoInput, SettingsForm } from '@over58/designable-react-settings-form'
 import { Button, Radio, Space } from 'antd'
 import React, { useEffect } from 'react'
 import ReactDOM from 'react-dom'
 import { Content } from './content'
-import { SchemaEditorWidget } from 'ove-designable-formily-antd'
 
 const RootBehavior = createBehavior({
   name: 'Root',

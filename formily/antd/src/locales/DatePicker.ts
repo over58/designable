@@ -1,4 +1,4 @@
-import { createLocales } from 'ove-designable-core'
+import { createLocales } from '@over58/designable-core'
 
 export const DatePicker = {
   'zh-CN': {

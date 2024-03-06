@@ -1,4 +1,4 @@
-import { ICustomEvent } from 'ove-designable-shared'
+import { ICustomEvent } from '@over58/designable-shared'
 import { AbstractMutationNodeEvent } from './AbstractMutationNodeEvent'
 
 export class AppendNodeEvent

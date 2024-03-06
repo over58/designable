@@ -3,8 +3,8 @@ import {
   useLayout,
   usePrefix,
   useWorkspace,
-} from 'ove-designable-react'
-import { globalThisPolyfill } from 'ove-designable-shared'
+} from '@over58/designable-react'
+import { globalThisPolyfill } from '@over58/designable-shared'
 import { useEffect, useRef } from 'react'
 
 export interface ISandboxProps {

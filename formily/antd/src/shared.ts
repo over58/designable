@@ -1,4 +1,4 @@
-import { TreeNode, Engine } from 'ove-designable-core'
+import { TreeNode, Engine } from '@over58/designable-core'
 
 export type ComponentNameMatcher =
   | string

@@ -1,8 +1,8 @@
 import React, { Fragment } from 'react'
 import { useTransformHelper, useCursor, usePrefix } from '../../hooks'
 import { observer } from '@formily/reactive-react'
-import { CursorStatus } from 'ove-designable-core'
-import { ILineSegment, calcRectOfAxisLineSegment } from 'ove-designable-shared'
+import { CursorStatus } from '@over58/designable-core'
+import { ILineSegment, calcRectOfAxisLineSegment } from '@over58/designable-shared'
 
 export const SpaceBlock = observer(() => {
   const cursor = useCursor()

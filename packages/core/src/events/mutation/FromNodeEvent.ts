@@ -1,4 +1,4 @@
-import { ICustomEvent } from 'ove-designable-shared'
+import { ICustomEvent } from '@over58/designable-shared'
 import { ITreeNode, TreeNode } from '../../models'
 import { IEngineContext } from '../../types'
 

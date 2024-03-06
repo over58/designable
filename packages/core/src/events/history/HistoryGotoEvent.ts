@@ -1,4 +1,4 @@
-import { ICustomEvent } from 'ove-designable-shared'
+import { ICustomEvent } from '@over58/designable-shared'
 import { AbstractHistoryEvent } from './AbstractHistoryEvent'
 
 export class HistoryGotoEvent

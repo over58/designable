@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import { TextWidget, usePrefix } from 'ove-designable-react'
+import { TextWidget, usePrefix } from '@over58/designable-react'
 import { Menu } from 'antd'
-import { MonacoInput } from 'ove-designable-react-settings-form'
+import { MonacoInput } from '@over58/designable-react-settings-form'
 import { isPlainObj, reduce } from '@formily/shared'
 import { FieldProperties } from './properties'
 export interface IFieldProperty {

@@ -1,4 +1,4 @@
-import { getKeyCodeFromEvent, KeyCode } from 'ove-designable-shared'
+import { getKeyCodeFromEvent, KeyCode } from '@over58/designable-shared'
 import { IEngineContext } from '../../types'
 
 export class AbstractKeyboardEvent {

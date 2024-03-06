@@ -1,4 +1,4 @@
-import { GlobalRegistry } from 'ove-designable-core'
+import { GlobalRegistry } from '@over58/designable-core'
 import { ISchema } from '@formily/react'
 
 export const Slider: ISchema = {

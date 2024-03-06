@@ -1,4 +1,4 @@
-import { createLocales } from 'ove-designable-core'
+import { createLocales } from '@over58/designable-core'
 import { Card } from './Card'
 
 export const ArrayCards = createLocales(Card, {

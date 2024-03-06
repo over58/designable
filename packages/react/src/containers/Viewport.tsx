@@ -1,8 +1,8 @@
 import React, { useLayoutEffect, useRef, useState } from 'react'
 import { usePrefix, useViewport } from '../hooks'
 import { AuxToolWidget, EmptyWidget } from '../widgets'
-import { Viewport as ViewportType } from 'ove-designable-core'
-import { requestIdle, globalThisPolyfill } from 'ove-designable-shared'
+import { Viewport as ViewportType } from '@over58/designable-core'
+import { requestIdle, globalThisPolyfill } from '@over58/designable-shared'
 import cls from 'classnames'
 export interface IViewportProps
   extends Omit<React.HTMLAttributes<HTMLDivElement>, 'placeholder'> {

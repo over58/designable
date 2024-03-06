@@ -11,7 +11,7 @@ import {
   useDesigner,
 } from '../../hooks'
 import { observer, ReactFC } from '@formily/reactive-react'
-import { TreeNode } from 'ove-designable-core'
+import { TreeNode } from '@over58/designable-core'
 import { TranslateHandler } from './TranslateHandler'
 export interface ISelectionBoxProps {
   node: TreeNode

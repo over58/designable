@@ -1,4 +1,4 @@
-import { EventDriver, globalThisPolyfill } from 'ove-designable-shared'
+import { EventDriver, globalThisPolyfill } from '@over58/designable-shared'
 import { Engine } from '../models/Engine'
 import { ViewportScrollEvent } from '../events'
 

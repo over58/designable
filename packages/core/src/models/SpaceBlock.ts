@@ -3,7 +3,7 @@ import {
   calcDistanceOfSnapLineToEdges,
   LineSegment,
   Rect,
-} from 'ove-designable-shared'
+} from '@over58/designable-shared'
 import { SnapLine } from './SnapLine'
 import { TransformHelper } from './TransformHelper'
 import { TreeNode } from './TreeNode'

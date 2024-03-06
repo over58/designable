@@ -1,4 +1,4 @@
-import { ICustomEvent } from 'ove-designable-shared'
+import { ICustomEvent } from '@over58/designable-shared'
 import { AbstractKeyboardEvent } from './AbstractKeyboardEvent'
 
 export class KeyDownEvent

@@ -1,8 +1,8 @@
-import { EventDriver } from 'ove-designable-shared'
+import { EventDriver } from '@over58/designable-shared'
 import { Engine } from '../models/Engine'
 import { ViewportResizeEvent } from '../events'
 import { ResizeObserver } from '@juggle/resize-observer'
-import { globalThisPolyfill } from 'ove-designable-shared'
+import { globalThisPolyfill } from '@over58/designable-shared'
 
 export class ViewportResizeDriver extends EventDriver<Engine> {
   request = 0

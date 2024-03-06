@@ -10,7 +10,7 @@ import {
   ICustomEvent,
   isFn,
   requestIdle,
-} from 'ove-designable-shared'
+} from '@over58/designable-shared'
 
 export interface IOperation {
   tree?: ITreeNode

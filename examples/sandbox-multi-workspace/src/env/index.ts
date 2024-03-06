@@ -1,4 +1,4 @@
-import { globalThisPolyfill } from 'ove-designable-shared'
+import { globalThisPolyfill } from '@over58/designable-shared'
 import * as Formily from './formily'
 import * as Designable from './designable'
 

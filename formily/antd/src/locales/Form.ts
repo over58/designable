@@ -1,4 +1,4 @@
-import { createLocales } from 'ove-designable-core'
+import { createLocales } from '@over58/designable-core'
 import { Component } from './Component'
 
 export const Form = createLocales(Component, {

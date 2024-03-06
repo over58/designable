@@ -18,18 +18,18 @@ import {
   ViewportPanel,
   SettingsPanel,
   HistoryWidget,
-} from 'ove-designable-react'
-import { SettingsForm, MonacoInput } from 'ove-designable-react-settings-form'
+} from '@over58/designable-react'
+import { SettingsForm, MonacoInput } from '@over58/designable-react-settings-form'
 import { observer } from '@formily/react'
 import {
   createDesigner,
   createResource,
   createBehavior,
   GlobalRegistry,
-} from 'ove-designable-core'
+} from '@over58/designable-core'
 import { Space, Button, Radio } from 'antd'
 import { GithubOutlined } from '@ant-design/icons'
-import { Sandbox } from 'ove-designable-react-sandbox'
+import { Sandbox } from '@over58/designable-react-sandbox'
 
 const RootBehavior = createBehavior({
   name: 'Root',

@@ -1,7 +1,7 @@
 import React from 'react'
 import cls from 'classnames'
 import { useDesigner, usePrefix } from '../../hooks'
-import { TreeNode } from 'ove-designable-core'
+import { TreeNode } from '@over58/designable-core'
 import { IconWidget } from '../IconWidget'
 import { ReactFC } from '@formily/reactive-react'
 

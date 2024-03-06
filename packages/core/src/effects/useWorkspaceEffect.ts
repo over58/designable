@@ -1,5 +1,5 @@
 import { Engine } from '../models'
-import { ICustomEvent } from 'ove-designable-shared'
+import { ICustomEvent } from '@over58/designable-shared'
 import { IEngineContext } from '../types'
 import { SelectNodeEvent } from '../events'
 

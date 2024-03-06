@@ -5,11 +5,11 @@ import {
   IconWidget,
   usePrefix,
   useTheme,
-} from 'ove-designable-react'
+} from '@over58/designable-react'
 import * as monaco from 'monaco-editor/esm/vs/editor/editor.api'
 import { Tooltip } from 'antd'
 import { parseExpression, parse } from '@babel/parser'
-import { globalThisPolyfill, uid } from 'ove-designable-shared'
+import { globalThisPolyfill, uid } from '@over58/designable-shared'
 import { format } from './format'
 import cls from 'classnames'
 import './styles.less'

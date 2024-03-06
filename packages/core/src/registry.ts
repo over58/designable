@@ -1,4 +1,4 @@
-import { each } from 'ove-designable-shared'
+import { each } from '@over58/designable-shared'
 import { Path } from '@formily/path'
 import { observable } from '@formily/reactive'
 import {

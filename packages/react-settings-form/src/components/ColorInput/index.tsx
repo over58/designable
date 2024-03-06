@@ -1,6 +1,6 @@
 import React, { useRef } from 'react'
 import { Input, Popover } from 'antd'
-import { usePrefix } from 'ove-designable-react'
+import { usePrefix } from '@over58/designable-react'
 import { SketchPicker } from 'react-color'
 import './styles.less'
 

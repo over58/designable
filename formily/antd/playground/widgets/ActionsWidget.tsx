@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react'
 import { Space, Button, Radio } from 'antd'
 import { GithubOutlined } from '@ant-design/icons'
-import { useDesigner, TextWidget } from 'ove-designable-react'
-import { GlobalRegistry } from 'ove-designable-core'
+import { useDesigner, TextWidget } from '@over58/designable-react'
+import { GlobalRegistry } from '@over58/designable-core'
 import { observer } from '@formily/react'
 import { loadInitialSchema, saveSchema } from '../service'
 

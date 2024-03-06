@@ -2,14 +2,14 @@ import React, { Fragment, useState } from 'react'
 import { observer } from '@formily/react'
 import { Collapse } from 'antd'
 import { CollapseProps, CollapsePanelProps } from 'antd/lib/collapse'
-import { TreeNode, createBehavior, createResource } from 'ove-designable-core'
+import { TreeNode, createBehavior, createResource } from '@over58/designable-core'
 import {
   useTreeNode,
   useNodeIdProps,
   DroppableWidget,
   TreeNodeWidget,
   DnFC,
-} from 'ove-designable-react'
+} from '@over58/designable-react'
 import { toArr } from '@formily/shared'
 import { LoadTemplate } from '../../common/LoadTemplate'
 import { useDropTemplate } from '../../hooks'

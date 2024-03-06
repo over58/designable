@@ -4,8 +4,8 @@ import {
   isResourceList,
   IResourceLike,
   IResource,
-} from 'ove-designable-core'
-import { isFn } from 'ove-designable-shared'
+} from '@over58/designable-core'
+import { isFn } from '@over58/designable-shared'
 import { observer, ReactFC } from '@formily/reactive-react'
 import { usePrefix } from '../../hooks'
 import { IconWidget } from '../IconWidget'

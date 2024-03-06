@@ -1,5 +1,5 @@
-import { each, isPlainObj } from 'ove-designable-shared'
-import { globalThisPolyfill } from 'ove-designable-shared'
+import { each, isPlainObj } from '@over58/designable-shared'
+import { globalThisPolyfill } from '@over58/designable-shared'
 
 export const lowerSnake = (str: string) => {
   return String(str).replace(/\s+/g, '_').toLocaleLowerCase()

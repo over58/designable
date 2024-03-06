@@ -6,7 +6,7 @@ import {
   isRectInRect,
   Point,
   Rect,
-} from 'ove-designable-shared'
+} from '@over58/designable-shared'
 
 export const useFreeSelectionEffect = (engine: Engine) => {
   engine.subscribeTo(DragStopEvent, (event) => {

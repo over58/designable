@@ -1,6 +1,6 @@
-import { Operation } from 'ove-designable-core'
+import { Operation } from '@over58/designable-core'
 import { onFieldInputValueChange } from '@formily/core'
-import { globalThisPolyfill } from 'ove-designable-shared'
+import { globalThisPolyfill } from '@over58/designable-shared'
 
 let timeRequest = 0
 

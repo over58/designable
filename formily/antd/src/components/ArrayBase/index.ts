@@ -1,4 +1,4 @@
-import { createBehavior } from 'ove-designable-core'
+import { createBehavior } from '@over58/designable-core'
 import { createFieldSchema, createVoidFieldSchema } from '../Field'
 import { AllSchemas } from '../../schemas'
 import { AllLocales } from '../../locales'

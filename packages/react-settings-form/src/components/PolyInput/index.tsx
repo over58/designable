@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from 'react'
 import { Button } from 'antd'
-import { usePrefix, IconWidget } from 'ove-designable-react'
+import { usePrefix, IconWidget } from '@over58/designable-react'
 import cls from 'classnames'
 import './styles.less'
 

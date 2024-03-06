@@ -1,6 +1,6 @@
 import { useState, useEffect, useMemo, useCallback } from 'react'
-import { TreeNode, CursorStatus, CursorDragType } from 'ove-designable-core'
-import { LayoutObserver } from 'ove-designable-shared'
+import { TreeNode, CursorStatus, CursorDragType } from '@over58/designable-core'
+import { LayoutObserver } from '@over58/designable-shared'
 import { useViewport } from './useViewport'
 import { useDesigner } from './useDesigner'
 

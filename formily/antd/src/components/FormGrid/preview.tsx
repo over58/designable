@@ -1,12 +1,12 @@
 import React from 'react'
 import { FormGrid as FormilyGird } from '@formily/antd-v5'
-import { TreeNode, createBehavior, createResource } from 'ove-designable-core'
+import { TreeNode, createBehavior, createResource } from '@over58/designable-core'
 import {
   DnFC,
   useTreeNode,
   useNodeIdProps,
   DroppableWidget,
-} from 'ove-designable-react'
+} from '@over58/designable-react'
 import { observer } from '@formily/reactive-react'
 import { LoadTemplate } from '../../common/LoadTemplate'
 import { createFieldSchema } from '../Field'

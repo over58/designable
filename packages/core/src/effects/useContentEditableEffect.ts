@@ -1,5 +1,5 @@
 import { Path } from '@formily/path'
-import { globalThisPolyfill, requestIdle } from 'ove-designable-shared'
+import { globalThisPolyfill, requestIdle } from '@over58/designable-shared'
 import { MouseClickEvent, MouseDoubleClickEvent } from '../events'
 import { Engine, TreeNode } from '../models'
 

@@ -1,8 +1,8 @@
-import { Engine, TreeNode } from 'ove-designable-core'
+import { Engine, TreeNode } from '@over58/designable-core'
 import {
   transformToSchema,
   transformToTreeNode,
-} from 'ove-designable-formily-transformer'
+} from '@over58/designable-formily-transformer'
 import { message } from 'antd'
 
 export const saveSchema = (designer: Engine) => {

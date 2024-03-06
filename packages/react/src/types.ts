@@ -1,5 +1,5 @@
 import React from 'react'
-import { Engine, IResource, IBehavior } from 'ove-designable-core'
+import { Engine, IResource, IBehavior } from '@over58/designable-core'
 
 export interface IDesignerLayoutProps {
   prefixCls?: string

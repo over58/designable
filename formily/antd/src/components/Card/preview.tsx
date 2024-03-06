@@ -1,8 +1,8 @@
 import React from 'react'
 import { Card as AntdCard } from 'antd'
 
-import { createBehavior, createResource } from 'ove-designable-core'
-import { DnFC } from 'ove-designable-react'
+import { createBehavior, createResource } from '@over58/designable-core'
+import { DnFC } from '@over58/designable-react'
 import { createVoidFieldSchema } from '../Field'
 import { AllSchemas } from '../../schemas'
 import { AllLocales } from '../../locales'

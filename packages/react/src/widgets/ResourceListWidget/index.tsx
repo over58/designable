@@ -5,10 +5,10 @@ import {
   isResourceHost,
   isResourceList,
   SourceType,
-} from 'ove-designable-core'
+} from '@over58/designable-core'
 import { IResourceWidgetProps, ResourceWidget } from '../ResourceWidget'
 import React from 'react'
-import { isFn } from 'ove-designable-shared'
+import { isFn } from '@over58/designable-shared'
 import { Input } from 'antd'
 
 export interface IResourceListWidgetProps

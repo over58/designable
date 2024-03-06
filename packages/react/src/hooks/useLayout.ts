@@ -1,7 +1,7 @@
 import { useContext } from 'react'
 import { DesignerLayoutContext } from '../context'
 import { IDesignerLayoutContext } from '../types'
-import { globalThisPolyfill } from 'ove-designable-shared'
+import { globalThisPolyfill } from '@over58/designable-shared'
 
 export const useLayout = (): IDesignerLayoutContext => {
   return (

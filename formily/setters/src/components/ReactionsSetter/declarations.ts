@@ -1,7 +1,7 @@
 import {
   MonacoInput,
   getNpmCDNRegistry,
-} from 'ove-designable-react-settings-form'
+} from '@over58/designable-react-settings-form'
 
 export interface IDependency {
   name: string
