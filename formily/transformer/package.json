@@ -1,0 +1,49 @@
+{
+  "name": "ove-designable-formily-transformer",
+  "version": "0.0.4-alpha.5",
+  "license": "MIT",
+  "main": "lib",
+  "engines": {
+    "npm": ">=3.0.0"
+  },
+  "files": [
+    "lib",
+    "dist",
+    "esm",
+    "src",
+    "package.json",
+    "LICENSE.md",
+    "README.md"
+  ],
+  "module": "esm",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pindjs/designable.git"
+  },
+  "types": "esm/index.d.ts",
+  "bugs": {
+    "url": "https://github.com/over58/designable/pulls"
+  },
+  "homepage": "https://github.com/over58/designable#readme",
+  "scripts": {
+    "build": "rimraf -rf lib esm dist && npm run build:cjs && npm run build:esm",
+    "build:cjs": "tsc --project tsconfig.build.json",
+    "build:esm": "tsc --project tsconfig.build.json --module es2015 --outDir esm"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@formily/core": "^2.2.16",
+    "@formily/json-schema": "^2.2.16"
+  },
+  "peerDependencies": {
+    "@formily/core": "^2.2.14",
+    "@formily/json-schema": "^2.2.14"
+  },
+  "dependencies": {
+    "ove-designable-core": "0.0.4-alpha.5",
+    "ove-designable-shared": "0.0.4-alpha.5"
+  },
+  "gitHead": "58af881a2f7f4ac0b833fbb3203100ccc0dfba69"
+}

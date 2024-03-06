@@ -1,0 +1,41 @@
+{
+  "name": "ove-designable-shared",
+  "version": "0.0.4-alpha.5",
+  "license": "MIT",
+  "main": "lib",
+  "types": "lib/index.d.ts",
+  "engines": {
+    "npm": ">=3.0.0"
+  },
+  "files": [
+    "lib",
+    "dist",
+    "esm",
+    "package.json",
+    "LICENSE.md",
+    "README.md"
+  ],
+  "module": "esm",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/over58/designable.git"
+  },
+  "bugs": {
+    "url": "https://github.com/over58/designable/issues"
+  },
+  "homepage": "https://github.com/over58/designable#readme",
+  "scripts": {
+    "build": "rimraf -rf lib esm dist && npm run build:cjs && npm run build:esm && npm run build:umd",
+    "build:cjs": "tsc --project tsconfig.build.json",
+    "build:esm": "tsc --project tsconfig.build.json --module es2015 --outDir esm",
+    "build:umd": "rollup --config --bundleConfigAsCjs"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
+  "dependencies": {
+    "requestidlecallback": "^0.3.0"
+  },
+  "gitHead": "58af881a2f7f4ac0b833fbb3203100ccc0dfba69"
+}

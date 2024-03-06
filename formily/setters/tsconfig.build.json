@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./lib",
+    "paths": {
+      "ove-designable-*": ["../../packages/*", "../../formily/*"]
+    },
+    "declaration": true
+  }
+}

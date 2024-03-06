@@ -1,0 +1,82 @@
+{
+  "name": "ove-designable-react-settings-form",
+  "version": "0.0.4-alpha.5",
+  "license": "MIT",
+  "main": "lib",
+  "type": "module",
+  "types": "lib/index.d.ts",
+  "engines": {
+    "npm": ">=3.0.0"
+  },
+  "files": [
+    "lib",
+    "dist",
+    "esm",
+    "src",
+    "package.json",
+    "LICENSE.md",
+    "README.md"
+  ],
+  "module": "esm",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/over58/designable.git"
+  },
+  "bugs": {
+    "url": "https://github.com/over58/designable/issues"
+  },
+  "homepage": "https://github.com/over58/designable#readme",
+  "scripts": {
+    "build": "rimraf -rf lib esm dist && npm run build:cjs && npm run build:esm && npm run build:umd && ts-node copy",
+    "build:cjs": "tsc --project tsconfig.build.json",
+    "build:esm": "tsc --project tsconfig.build.json --module es2015 --outDir esm",
+    "build:umd": "rollup --config --bundleConfigAsCjs"
+  },
+  "peerDependencies": {
+    "@formily/antd-v5": "^1.0.1-rc.1",
+    "@formily/core": "^2.2.14",
+    "@formily/react": "^2.2.14",
+    "@formily/reactive": "^2.2.14",
+    "@formily/reactive-react": "^2.2.14",
+    "@formily/shared": "^2.2.14",
+    "@types/react": "^17.0.38",
+    "@types/react-dom": "^17.0.11",
+    "dayjs": "^1.11.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@rc-component/mini-decimal": "^1.0.1",
+    "@types/react": "^17.0.38",
+    "@types/react-dom": "^17.0.11",
+    "dayjs": "^1.11.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "ts-node": "^10.9.1"
+  },
+  "dependencies": {
+    "@babel/parser": "^7.20.7",
+    "@formily/antd-v5": "^1.0.1-rc.1",
+    "@formily/core": "^2.2.16",
+    "@formily/grid": "^2.2.16",
+    "@formily/react": "^2.2.16",
+    "@formily/reactive": "^2.2.16",
+    "@formily/reactive-react": "^2.2.16",
+    "@formily/shared": "^2.2.16",
+    "@monaco-editor/loader": "^1.3.2",
+    "@monaco-editor/react": "^4.4.6",
+    "antd": "^5.1.2",
+    "classnames": "^2.3.2",
+    "monaco-editor": "^0.34.1",
+    "ove-designable-core": "0.0.4-alpha.5",
+    "ove-designable-react": "0.0.4-alpha.5",
+    "ove-designable-shared": "0.0.4-alpha.5",
+    "prettier": "^2.8.1",
+    "react-color": "^2.19.3"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
+  "gitHead": "58af881a2f7f4ac0b833fbb3203100ccc0dfba69"
+}
