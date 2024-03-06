@@ -44,13 +44,13 @@
     "@formily/reactive": "^2.2.16",
     "@formily/reactive-react": "^2.2.16",
     "@formily/shared": "^2.2.16",
+    "@over58/designable-react-settings-form": "0.0.4-alpha.5",
     "@types/glob": "^7.2.0",
     "@types/react": "^17.0.38",
     "@types/react-dom": "^17.0.11",
     "@vitejs/plugin-basic-ssl": "^1.0.0",
     "@vitejs/plugin-react-swc": "^3.0.0",
     "less": "^3.13.1",
-    "@over58/designable-react-settings-form": "0.0.4-alpha.5",
     "react-error-boundary": "^3.1.4",
     "ts-loader": "^7.0.5",
     "typescript": "^4.9.5"
@@ -69,17 +69,17 @@
     "react-dom": "^17.0.2"
   },
   "dependencies": {
-    "antd": "^5.1.2",
-    "classnames": "^2.3.2",
     "@over58/designable-core": "0.0.4-alpha.5",
     "@over58/designable-formily-setters": "0.0.4-alpha.5",
     "@over58/designable-formily-transformer": "0.0.4-alpha.5",
     "@over58/designable-react": "0.0.4-alpha.5",
+    "antd": "^5.1.2",
+    "classnames": "^2.3.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "58af881a2f7f4ac0b833fbb3203100ccc0dfba69"
+  "gitHead": "513a836bd1141b8413bd411dc386a7dea43102f6"
 }
