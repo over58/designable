@@ -22,18 +22,14 @@
     "dist",
     "esm",
     "src",
-    "playground",
     "package.json",
     "LICENSE.md",
     "README.md"
   ],
   "scripts": {
-    "start": "vite --host --config playground/vite.config.ts",
     "build": "rimraf -rf lib esm dist && npm run build:cjs && npm run build:esm && ts-node copy",
     "build:cjs": "tsc --project tsconfig.build.json",
-    "build:esm": "tsc --project tsconfig.build.json --module es2015 --outDir esm",
-    "build:playground": "vite build --config playground/vite.config.ts",
-    "preview:playground": "vite preview --host --config playground/vite.config.ts"
+    "build:esm": "rimraf -rf esm && tsc --project tsconfig.build.json --module es2015 --outDir esm"
   },
   "devDependencies": {
     "@ant-design/icons": "^4.8.0",

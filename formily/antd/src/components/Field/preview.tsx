@@ -12,7 +12,7 @@ import {
 } from '@formily/react'
 import { FormItem } from '@formily/antd-v5'
 import { each, reduce } from '@formily/shared'
-import { createBehavior } from '@over58/designable-core'
+import { createBehavior, GlobalRegistry } from '@over58/designable-core'
 import {
   useDesigner,
   useTreeNode,
@@ -27,7 +27,9 @@ Schema.silent(true)
 
 const SchemaStateMap = {
   title: 'title',
+  titleEn: 'titleEn',
   description: 'description',
+  descriptionEn: 'descriptionEn',
   default: 'value',
   enum: 'dataSource',
   readOnly: 'readOnly',
@@ -88,8 +90,14 @@ const toDesignableFieldProps = (
   components: any,
   nodeIdAttrName: string,
   id: string
-) => {
+) => { 
   const results: any = {}
+  const isEn = GlobalRegistry.getDesignerLanguage() === 'en-us'
+  function adjustTextByLang(targetObj, fieldKey, fieldKeyEn) {
+    const textEn = targetObj[fieldKeyEn] || targetObj[fieldKey]
+    const text = targetObj[fieldKey]
+    targetObj[fieldKey] = isEn? textEn: text
+  }
   each(SchemaStateMap, (fieldKey, schemaKey) => {
     const value = schema[schemaKey]
     if (isExpression(value)) {
@@ -110,7 +118,10 @@ const toDesignableFieldProps = (
   const component =
     schema['x-component'] && FormPath.getIn(components, schema['x-component'])
   const decoratorProps = filterExpression(schema['x-decorator-props'] || {})
+  adjustTextByLang(decoratorProps, 'tooltip', 'tooltipEn')
+
   const componentProps = filterExpression(schema['x-component-props'] || {})
+  adjustTextByLang(componentProps, 'placeholder', 'placeholderEn')
 
   if (decorator) {
     results.decorator = [decorator, toJS(decoratorProps)]
@@ -123,9 +134,13 @@ const toDesignableFieldProps = (
   } else if (component) {
     FormPath.setIn(results['component'][1], nodeIdAttrName, id)
   }
+
+  adjustTextByLang(results, 'title', 'titleEn')
   results.title = results.title && (
     <span data-content-editable="title">{results.title}</span>
   )
+
+  adjustTextByLang(results, 'description', 'descriptionEn')
   results.description = results.description && (
     <span data-content-editable="description">{results.description}</span>
   )

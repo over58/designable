@@ -20,7 +20,7 @@
     "build:docs": "dumi build",
     "start": "dumi dev",
     "start:basic": "lerna run --scope='@over58/designable-basic-example' start",
-    "start:formily-antd": "lerna run --scope='@over58/designable-formily-antd' start",
+    "start:playground": "lerna run --scope='@over58/designable-formily-antd-playground' start",
     "start:sandbox": "lerna run --scope='@over58/designable-sandbox-example' start",
     "start:multi-workspace": "lerna run --scope='@over58/designable-multi-workspace-example' start",
     "start:sandbox-multi-workspace": "lerna run --scope='@over58/designable-sandbox-multi-workspace-example' start",

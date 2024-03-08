@@ -25,6 +25,7 @@ export const runCopy = ({
   resolveForItem,
   ...lastOpts
 }: CopyBaseOptions & { resolveForItem?: (filename: string) => unknown }) => {
+  console.log('==resolveForItem', resolveForItem, lastOpts)
   return new Promise((resolve, reject) => {
     glob(`./src/**/*`, (err, files) => {
       if (err) {
