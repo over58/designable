@@ -1,7 +1,7 @@
-# ove-designable-formily-antd
+# @over58/designable-formily-antd
 
 ### Install
 
 ```bash
-npm install --save ove-designable-formily-antd
+npm install --save @over58/designable-formily-antd
 ```

@@ -1,6 +1,6 @@
 {
   "name": "@over58/designable-shared",
-  "version": "0.0.4-alpha.6",
+  "version": "0.0.4-alpha.7",
   "license": "MIT",
   "main": "lib",
   "types": "lib/index.d.ts",

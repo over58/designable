@@ -1,5 +1,6 @@
 {
   "name": "@over58/designable-formily-antd-playground",
+  "version": "0.0.4-alpha.7",
   "license": "MIT",
   "module": "esm",
   "main": "lib",
@@ -41,7 +42,7 @@
     "@formily/reactive": "^2.2.16",
     "@formily/reactive-react": "^2.2.16",
     "@formily/shared": "^2.2.16",
-    "@over58/designable-react-settings-form": "workspace:*",
+    "@over58/designable-react-settings-form": "workspace:0.0.4-alpha.7",
     "@types/glob": "^7.2.0",
     "@types/react": "^17.0.38",
     "@types/react-dom": "^17.0.11",
@@ -65,11 +66,11 @@
     "react-dom": "^17.0.2"
   },
   "dependencies": {
-    "@over58/designable-core": "workspace:*",
-    "@over58/designable-formily-setters": "workspace:*",
-    "@over58/designable-formily-transformer": "workspace:*",
-    "@over58/designable-react": "workspace:*",
-    "@over58/designable-formily-antd":"workspace:*",
+    "@over58/designable-core": "0.0.4-alpha.7",
+    "@over58/designable-formily-antd": "0.0.4-alpha.7",
+    "@over58/designable-formily-setters": "0.0.4-alpha.7",
+    "@over58/designable-formily-transformer": "0.0.4-alpha.7",
+    "@over58/designable-react": "0.0.4-alpha.7",
     "antd": "^5.1.2",
     "classnames": "^2.3.2",
     "react": "^17.0.2",

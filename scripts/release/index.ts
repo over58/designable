@@ -12,7 +12,10 @@ import {
   getSortableAllTags,
   getTaggedTime,
 } from './git'
+import { fileURLToPath } from 'url'
 
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = path.dirname(__filename)
 const LernaJSON = fs.readJSONSync(path.resolve(__dirname, '../../lerna.json'))
 
 const ReleaseTitle = 'Designable Release 🚀'

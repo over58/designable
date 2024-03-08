@@ -1,6 +1,6 @@
 {
   "name": "@over58/designable-formily-setters",
-  "version": "0.0.4-alpha.6",
+  "version": "0.0.4-alpha.7",
   "license": "MIT",
   "main": "lib",
   "type": "module",
@@ -59,11 +59,11 @@
   },
   "dependencies": {
     "@formily/json-schema": "^2.2.16",
-    "@over58/designable-core": "0.0.4-alpha.6",
-    "@over58/designable-formily-transformer": "0.0.4-alpha.6",
-    "@over58/designable-react": "0.0.4-alpha.6",
-    "@over58/designable-react-settings-form": "0.0.4-alpha.6",
-    "@over58/designable-shared": "0.0.4-alpha.6",
+    "@over58/designable-core": "0.0.4-alpha.7",
+    "@over58/designable-formily-transformer": "0.0.4-alpha.7",
+    "@over58/designable-react": "0.0.4-alpha.7",
+    "@over58/designable-react-settings-form": "0.0.4-alpha.7",
+    "@over58/designable-shared": "0.0.4-alpha.7",
     "@types/react": "^17.0.38",
     "@types/react-dom": "^17.0.11",
     "classnames": "^2.3.2"
