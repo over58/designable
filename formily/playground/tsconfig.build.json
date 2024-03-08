@@ -1,0 +1,16 @@
+{
+  "extends": "./tsconfig.json",
+  "exclude": ["vite.config.ts","main.tsx"],
+  "compilerOptions": {
+    "outDir": "./lib",
+    "paths": {
+      "@over58/designable-*": ["../packages/*"],
+      "@over58/designable-formily-*": ["../formily/*"]
+    },
+    "declaration": true,
+  },
+  "ts-node": {
+    "esm": true,
+    "experimentalSpecifierResolution": "node"
+  }
+}
