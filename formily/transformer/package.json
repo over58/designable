@@ -1,6 +1,6 @@
 {
   "name": "@over58/designable-formily-transformer",
-  "version": "0.0.4-alpha.7",
+  "version": "0.0.5-alpha.0",
   "license": "MIT",
   "type": "module",
   "main": "esm/index.js",
@@ -43,8 +43,8 @@
     "@formily/json-schema": "^2.2.14"
   },
   "dependencies": {
-    "@over58/designable-core": "0.0.4-alpha.7",
-    "@over58/designable-shared": "0.0.4-alpha.7"
+    "@over58/designable-core": "0.0.5-alpha.0",
+    "@over58/designable-shared": "0.0.5-alpha.0"
   },
   "gitHead": "513a836bd1141b8413bd411dc386a7dea43102f6"
 }

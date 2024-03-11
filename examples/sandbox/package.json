@@ -1,6 +1,6 @@
 {
   "name": "@over58/designable-sandbox-example",
-  "version": "0.0.4-alpha.7",
+  "version": "0.0.5-alpha.0",
   "license": "MIT",
   "private": true,
   "engines": {
@@ -29,11 +29,11 @@
     "@formily/reactive": "^2.2.16",
     "@formily/reactive-react": "^2.2.16",
     "@formily/shared": "^2.2.16",
-    "@over58/designable-core": "0.0.4-alpha.7",
-    "@over58/designable-react": "0.0.4-alpha.7",
-    "@over58/designable-react-sandbox": "0.0.4-alpha.7",
-    "@over58/designable-react-settings-form": "0.0.4-alpha.7",
-    "@over58/designable-shared": "0.0.4-alpha.7",
+    "@over58/designable-core": "0.0.5-alpha.0",
+    "@over58/designable-react": "0.0.5-alpha.0",
+    "@over58/designable-react-sandbox": "0.0.5-alpha.0",
+    "@over58/designable-react-settings-form": "0.0.5-alpha.0",
+    "@over58/designable-shared": "0.0.5-alpha.0",
     "antd": "^5.1.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"

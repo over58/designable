@@ -1,6 +1,6 @@
 {
   "name": "@over58/designable-core",
-  "version": "0.0.4-alpha.7",
+  "version": "0.0.5-alpha.0",
   "license": "MIT",
   "type": "module",
   "main": "esm/index.js",
@@ -44,7 +44,7 @@
   "dependencies": {
     "@formily/reactive": "^2.2.16",
     "@juggle/resize-observer": "^3.4.0",
-    "@over58/designable-shared": "0.0.4-alpha.7"
+    "@over58/designable-shared": "0.0.5-alpha.0"
   },
   "publishConfig": {
     "access": "public",
