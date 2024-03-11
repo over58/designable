@@ -3,6 +3,7 @@
   "version": "0.0.4-alpha.7",
   "license": "MIT",
   "main": "lib",
+  "type": "module",
   "types": "lib/index.d.ts",
   "engines": {
     "npm": ">=3.0.0"
