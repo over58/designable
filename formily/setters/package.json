@@ -2,14 +2,13 @@
   "name": "@over58/designable-formily-setters",
   "version": "0.0.4-alpha.7",
   "license": "MIT",
-  "main": "lib",
   "type": "module",
-  "module": "esm",
+  "main": "esm/index.js",
+  "types": "esm/index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pindjs/designable.git"
   },
-  "types": "esm/index.d.ts",
   "bugs": {
     "url": "https://github.com/over58/designable/pulls"
   },
@@ -27,7 +26,8 @@
     "README.md"
   ],
   "scripts": {
-    "build": "rimraf -rf lib esm dist && npm run build:cjs && npm run build:esm && ts-node copy",
+    "build": "rimraf -rf lib esm dist && npm run build:esm && ts-node copy",
+    "build:all": "rimraf -rf lib esm dist && npm run build:cjs && npm run build:esm && ts-node copy",
     "build:cjs": "tsc --project tsconfig.build.json",
     "build:esm": "tsc --project tsconfig.build.json --module es2015 --outDir esm",
     "start": "webpack-dev-server --config playground/webpack.dev.ts"

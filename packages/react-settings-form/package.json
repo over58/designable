@@ -2,9 +2,9 @@
   "name": "@over58/designable-react-settings-form",
   "version": "0.0.4-alpha.7",
   "license": "MIT",
-  "main": "lib",
   "type": "module",
-  "types": "lib/index.d.ts",
+  "main": "esm/index.js",
+  "types": "esm/index.d.ts",
   "engines": {
     "npm": ">=3.0.0"
   },
@@ -17,7 +17,6 @@
     "LICENSE.md",
     "README.md"
   ],
-  "module": "esm",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/over58/designable.git"
@@ -27,7 +26,8 @@
   },
   "homepage": "https://github.com/over58/designable#readme",
   "scripts": {
-    "build": "rimraf -rf lib esm dist && npm run build:cjs && npm run build:esm && npm run build:umd && ts-node copy",
+    "build": "rimraf -rf lib esm dist && npm run build:esm && ts-node copy",
+    "build:all": "rimraf -rf lib esm dist && npm run build:cjs && npm run build:esm && npm run build:umd && ts-node copy",
     "build:cjs": "tsc --project tsconfig.build.json",
     "build:esm": "tsc --project tsconfig.build.json --module es2015 --outDir esm",
     "build:umd": "rollup --config --bundleConfigAsCjs"
