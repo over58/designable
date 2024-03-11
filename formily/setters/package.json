@@ -3,7 +3,6 @@
   "version": "0.0.4-alpha.7",
   "license": "MIT",
   "main": "lib",
-  "type": "module",
   "module": "esm",
   "repository": {
     "type": "git",
