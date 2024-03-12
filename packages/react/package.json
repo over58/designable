@@ -1,6 +1,6 @@
 {
   "name": "@over58/designable-react",
-  "version": "0.0.5-alpha.0",
+  "version": "0.0.5-rc.0",
   "license": "MIT",
   "type": "module",
   "main": "esm",
@@ -41,8 +41,8 @@
     "@formily/reactive-react": "^2.2.16"
   },
   "dependencies": {
-    "@over58/designable-core": "0.0.5-alpha.0",
-    "@over58/designable-shared": "0.0.5-alpha.0",
+    "@over58/designable-core": "0.0.5-rc.0",
+    "@over58/designable-shared": "0.0.5-rc.0",
     "antd": "^5.1.2",
     "classnames": "^2.3.2",
     "dateformat": "^4.6.3"
