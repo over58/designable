@@ -98,7 +98,8 @@ export const FieldPropertySetter: React.FC<IFieldPropertySetterProps> = (
             <TextWidget token="SettingComponents.ReactionsSetter.expressionValueTypeIs" />{' '}
             {'`'}
             {currentProperty?.type}
-            {'`'}
+            {'`,'}{' '}
+            <TextWidget token="SettingComponents.ReactionsSetter.globalVariable" />
           </span>
         </div>
         <div className={prefix + '-coder'}>

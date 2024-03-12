@@ -16,6 +16,8 @@ export const GlobalHelper = `
  * 
  * 7. \`$props\` function is used to set component props to current field
  * 
+ * 8. \`lang\` is used to set different text by language. the value is en or zh
+ * 
  * Document Links
  * 
  * https://react.formilyjs.org/api/shared/schema#%E5%86%85%E7%BD%AE%E8%A1%A8%E8%BE%BE%E5%BC%8F%E4%BD%9C%E7%94%A8%E5%9F%9F

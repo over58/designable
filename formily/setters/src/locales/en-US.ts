@@ -92,6 +92,7 @@ export default {
         decoratorProps: 'Decorator Props',
         pleaseSelect: 'Please Select',
         expressionValueTypeIs: 'Expression value type is',
+        globalVariable: 'Global variable is lang, the value is zh or en',
       },
       ValidatorSetter: {
         pleaseSelect: 'Please Select',

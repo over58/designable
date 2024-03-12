@@ -90,6 +90,7 @@ export default {
         decoratorProps: '容器属性',
         pleaseSelect: '请选择',
         expressionValueTypeIs: '表达式值类型为',
+        globalVariable: '全局变量是lang, 可用值是zh和en',
       },
       ValidatorSetter: {
         pleaseSelect: '请选择',

@@ -1,10 +1,10 @@
 import { Alias, defineConfig } from 'vite'
 import react from '@vitejs/plugin-react-swc'
-import { GlobSync } from 'glob'
+import glob from 'glob'
 import { resolve } from 'path'
 import fs from 'fs-extra'
 import basicSsl from '@vitejs/plugin-basic-ssl'
-
+const { GlobSync } = glob
 const getWorkspaceAlias = () => {
   const basePath = resolve(__dirname, '../../')
   const pkg = fs.readJSONSync(resolve(basePath, 'package.json')) || {}
