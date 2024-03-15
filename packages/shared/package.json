@@ -1,6 +1,6 @@
 {
   "name": "@over58/designable-shared",
-  "version": "0.0.5-rc.0",
+  "version": "0.0.6-rc.0",
   "license": "MIT",
   "type": "module",
   "main": "esm",

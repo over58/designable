@@ -1,6 +1,6 @@
 {
   "name": "@over58/designable-formily-antd",
-  "version": "0.0.5-rc.0",
+  "version": "0.0.6-rc.0",
   "license": "MIT",
   "type": "module",
   "main": "esm/index.js",
@@ -40,7 +40,7 @@
     "@formily/reactive": "^2.2.16",
     "@formily/reactive-react": "^2.2.16",
     "@formily/shared": "^2.2.16",
-    "@over58/designable-react-settings-form": "0.0.5-rc.0",
+    "@over58/designable-react-settings-form": "0.0.6-rc.0",
     "@types/glob": "^7.2.0",
     "@types/react": "^17.0.38",
     "@types/react-dom": "^17.0.11",
@@ -65,10 +65,10 @@
     "react-dom": "^17.0.2"
   },
   "dependencies": {
-    "@over58/designable-core": "0.0.5-rc.0",
-    "@over58/designable-formily-setters": "0.0.5-rc.0",
-    "@over58/designable-formily-transformer": "0.0.5-rc.0",
-    "@over58/designable-react": "0.0.5-rc.0",
+    "@over58/designable-core": "0.0.6-rc.0",
+    "@over58/designable-formily-setters": "0.0.6-rc.0",
+    "@over58/designable-formily-transformer": "0.0.6-rc.0",
+    "@over58/designable-react": "0.0.6-rc.0",
     "antd": "^5.1.2",
     "classnames": "^2.3.2",
     "react": "^17.0.2",

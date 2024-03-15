@@ -182,12 +182,12 @@ importers:
       '@formily/react': ^2.2.14
       '@formily/reactive': ^2.2.16
       '@formily/reactive-react': ^2.2.16
-      '@over58/designable-core': 0.0.5-rc.0
-      '@over58/designable-formily-antd': 0.0.5-rc.0
-      '@over58/designable-react': 0.0.5-rc.0
-      '@over58/designable-react-sandbox': 0.0.5-rc.0
-      '@over58/designable-react-settings-form': 0.0.5-rc.0
-      '@over58/designable-shared': 0.0.5-rc.0
+      '@over58/designable-core': 0.0.6-rc.0
+      '@over58/designable-formily-antd': 0.0.6-rc.0
+      '@over58/designable-react': 0.0.6-rc.0
+      '@over58/designable-react-sandbox': 0.0.6-rc.0
+      '@over58/designable-react-settings-form': 0.0.6-rc.0
+      '@over58/designable-shared': 0.0.6-rc.0
       '@types/glob': ^7.2.0
       '@types/react': ^17.0.38
       '@types/react-dom': ^17.0.11
@@ -235,11 +235,11 @@ importers:
       '@formily/react': ^2.2.14
       '@formily/reactive': ^2.2.16
       '@formily/reactive-react': ^2.2.16
-      '@over58/designable-core': 0.0.5-rc.0
-      '@over58/designable-react': 0.0.5-rc.0
-      '@over58/designable-react-sandbox': 0.0.5-rc.0
-      '@over58/designable-react-settings-form': 0.0.5-rc.0
-      '@over58/designable-shared': 0.0.5-rc.0
+      '@over58/designable-core': 0.0.6-rc.0
+      '@over58/designable-react': 0.0.6-rc.0
+      '@over58/designable-react-sandbox': 0.0.6-rc.0
+      '@over58/designable-react-settings-form': 0.0.6-rc.0
+      '@over58/designable-shared': 0.0.6-rc.0
       '@types/glob': ^7.2.0
       '@types/react': ^17.0.38
       '@types/react-dom': ^17.0.11
@@ -287,11 +287,11 @@ importers:
       '@formily/reactive': ^2.2.16
       '@formily/reactive-react': ^2.2.16
       '@formily/shared': ^2.2.16
-      '@over58/designable-core': 0.0.5-rc.0
-      '@over58/designable-react': 0.0.5-rc.0
-      '@over58/designable-react-sandbox': 0.0.5-rc.0
-      '@over58/designable-react-settings-form': 0.0.5-rc.0
-      '@over58/designable-shared': 0.0.5-rc.0
+      '@over58/designable-core': 0.0.6-rc.0
+      '@over58/designable-react': 0.0.6-rc.0
+      '@over58/designable-react-sandbox': 0.0.6-rc.0
+      '@over58/designable-react-settings-form': 0.0.6-rc.0
+      '@over58/designable-shared': 0.0.6-rc.0
       '@types/glob': ^7.2.0
       '@types/react': ^17.0.38
       '@types/react-dom': ^17.0.11
@@ -339,11 +339,11 @@ importers:
       '@formily/reactive': ^2.2.16
       '@formily/reactive-react': ^2.2.16
       '@formily/shared': ^2.2.16
-      '@over58/designable-core': 0.0.5-rc.0
-      '@over58/designable-react': 0.0.5-rc.0
-      '@over58/designable-react-sandbox': 0.0.5-rc.0
-      '@over58/designable-react-settings-form': 0.0.5-rc.0
-      '@over58/designable-shared': 0.0.5-rc.0
+      '@over58/designable-core': 0.0.6-rc.0
+      '@over58/designable-react': 0.0.6-rc.0
+      '@over58/designable-react-sandbox': 0.0.6-rc.0
+      '@over58/designable-react-settings-form': 0.0.6-rc.0
+      '@over58/designable-shared': 0.0.6-rc.0
       '@types/glob': ^7.2.0
       '@types/react': ^17.0.38
       '@types/react-dom': ^17.0.11
@@ -392,11 +392,11 @@ importers:
       '@formily/reactive': ^2.2.16
       '@formily/reactive-react': ^2.2.16
       '@formily/shared': ^2.2.16
-      '@over58/designable-core': 0.0.5-rc.0
-      '@over58/designable-formily-setters': 0.0.5-rc.0
-      '@over58/designable-formily-transformer': 0.0.5-rc.0
-      '@over58/designable-react': 0.0.5-rc.0
-      '@over58/designable-react-settings-form': 0.0.5-rc.0
+      '@over58/designable-core': 0.0.6-rc.0
+      '@over58/designable-formily-setters': 0.0.6-rc.0
+      '@over58/designable-formily-transformer': 0.0.6-rc.0
+      '@over58/designable-react': 0.0.6-rc.0
+      '@over58/designable-react-settings-form': 0.0.6-rc.0
       '@types/glob': ^7.2.0
       '@types/react': ^17.0.38
       '@types/react-dom': ^17.0.11
@@ -449,12 +449,12 @@ importers:
       '@formily/reactive': ^2.2.16
       '@formily/reactive-react': ^2.2.16
       '@formily/shared': ^2.2.16
-      '@over58/designable-core': 0.0.5-rc.0
-      '@over58/designable-formily-antd': 0.0.5-rc.0
-      '@over58/designable-formily-setters': 0.0.5-rc.0
-      '@over58/designable-formily-transformer': 0.0.5-rc.0
-      '@over58/designable-react': 0.0.5-rc.0
-      '@over58/designable-react-settings-form': workspace:0.0.5-rc.0
+      '@over58/designable-core': 0.0.6-rc.0
+      '@over58/designable-formily-antd': 0.0.6-rc.0
+      '@over58/designable-formily-setters': 0.0.6-rc.0
+      '@over58/designable-formily-transformer': 0.0.6-rc.0
+      '@over58/designable-react': 0.0.6-rc.0
+      '@over58/designable-react-settings-form': workspace:0.0.6-rc.0
       '@types/glob': ^7.2.0
       '@types/react': ^17.0.38
       '@types/react-dom': ^17.0.11
@@ -505,11 +505,11 @@ importers:
       '@formily/reactive': ^2.2.16
       '@formily/reactive-react': ^2.2.16
       '@formily/shared': ^2.2.16
-      '@over58/designable-core': 0.0.5-rc.0
-      '@over58/designable-formily-transformer': 0.0.5-rc.0
-      '@over58/designable-react': 0.0.5-rc.0
-      '@over58/designable-react-settings-form': 0.0.5-rc.0
-      '@over58/designable-shared': 0.0.5-rc.0
+      '@over58/designable-core': 0.0.6-rc.0
+      '@over58/designable-formily-transformer': 0.0.6-rc.0
+      '@over58/designable-react': 0.0.6-rc.0
+      '@over58/designable-react-settings-form': 0.0.6-rc.0
+      '@over58/designable-shared': 0.0.6-rc.0
       '@types/react': ^17.0.38
       '@types/react-dom': ^17.0.11
       antd: ^5.1.2
@@ -541,8 +541,8 @@ importers:
     specifiers:
       '@formily/core': ^2.2.16
       '@formily/json-schema': ^2.2.16
-      '@over58/designable-core': 0.0.5-rc.0
-      '@over58/designable-shared': 0.0.5-rc.0
+      '@over58/designable-core': 0.0.6-rc.0
+      '@over58/designable-shared': 0.0.6-rc.0
     dependencies:
       '@over58/designable-core': link:../../packages/core
       '@over58/designable-shared': link:../../packages/shared
@@ -556,7 +556,7 @@ importers:
       '@formily/path': ^2.2.16
       '@formily/reactive': ^2.2.16
       '@juggle/resize-observer': ^3.4.0
-      '@over58/designable-shared': 0.0.5-rc.0
+      '@over58/designable-shared': 0.0.6-rc.0
     dependencies:
       '@formily/reactive': 2.3.1
       '@juggle/resize-observer': 3.4.0
@@ -569,8 +569,8 @@ importers:
     specifiers:
       '@formily/reactive': ^2.2.16
       '@formily/reactive-react': ^2.2.16
-      '@over58/designable-core': 0.0.5-rc.0
-      '@over58/designable-shared': 0.0.5-rc.0
+      '@over58/designable-core': 0.0.6-rc.0
+      '@over58/designable-shared': 0.0.6-rc.0
       '@types/react': ^17.0.38
       '@types/react-dom': ^17.0.11
       antd: ^5.1.2
@@ -592,8 +592,8 @@ importers:
 
   packages/react-sandbox:
     specifiers:
-      '@over58/designable-react': 0.0.5-rc.0
-      '@over58/designable-shared': 0.0.5-rc.0
+      '@over58/designable-react': 0.0.6-rc.0
+      '@over58/designable-shared': 0.0.6-rc.0
       '@types/react': ^17.0.38
       '@types/react-dom': ^17.0.11
       react: ^17.0.2
@@ -619,9 +619,9 @@ importers:
       '@formily/shared': ^2.2.16
       '@monaco-editor/loader': ^1.3.2
       '@monaco-editor/react': ^4.4.6
-      '@over58/designable-core': 0.0.5-rc.0
-      '@over58/designable-react': 0.0.5-rc.0
-      '@over58/designable-shared': 0.0.5-rc.0
+      '@over58/designable-core': 0.0.6-rc.0
+      '@over58/designable-react': 0.0.6-rc.0
+      '@over58/designable-shared': 0.0.6-rc.0
       '@rc-component/mini-decimal': ^1.0.1
       '@types/react': ^17.0.38
       '@types/react-dom': ^17.0.11
