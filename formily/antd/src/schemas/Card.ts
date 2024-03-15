@@ -19,6 +19,11 @@ export const Card: ISchema & { Addition?: ISchema } = {
       'x-decorator': 'FormItem',
       'x-component': 'Input',
     },
+    extraEn: {
+      type: 'string',
+      'x-decorator': 'FormItem',
+      'x-component': 'Input',
+    },
     type: {
       type: 'boolean',
       enum: GlobalRegistry.getDesignerMessage('settings.cardTypes'),

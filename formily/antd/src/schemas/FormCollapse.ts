@@ -52,7 +52,17 @@ FormCollapse.CollapsePanel = {
       'x-decorator': 'FormItem',
       'x-component': 'Input',
     },
+    headerEn: {
+      type: 'boolean',
+      'x-decorator': 'FormItem',
+      'x-component': 'Input',
+    },
     extra: {
+      type: 'boolean',
+      'x-decorator': 'FormItem',
+      'x-component': 'Input',
+    },
+    extraEn: {
       type: 'boolean',
       'x-decorator': 'FormItem',
       'x-component': 'Input',

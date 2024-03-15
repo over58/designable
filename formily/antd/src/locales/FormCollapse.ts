@@ -35,7 +35,9 @@ export const FormCollapsePanel = {
       'x-component-props': {
         collapsible: { title: '是否可折叠', dataSource: ['头部', '禁用'] },
         header: '标题',
+        headerEn: '标题(英文)',
         extra: '扩展内容',
+        extraEn: '扩展内容(英文)',
       },
     },
   },
@@ -48,7 +50,9 @@ export const FormCollapsePanel = {
           dataSource: ['Header', 'Disable'],
         },
         header: 'Header Title',
+        headerEn: 'Header Title(EN)',
         extra: 'Extra Content',
+        extraEn: 'Extra Content(EN)',
       },
     },
   }

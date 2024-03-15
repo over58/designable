@@ -42,5 +42,10 @@ FormTab.TabPane = {
       'x-decorator': 'FormItem',
       'x-component': 'Input',
     },
+    tabEn: {
+      type: 'string',
+      'x-decorator': 'FormItem',
+      'x-component': 'Input',
+    },
   },
 }

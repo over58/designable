@@ -57,6 +57,7 @@ export const ArrayTableColumn = {
     settings: {
       'x-component-props': {
         title: '标题',
+        titleEn: '标题(英文)',
         align: {
           title: '内容对齐',
           dataSource: ['左', '右', '居中'],
@@ -75,6 +76,7 @@ export const ArrayTableColumn = {
     settings: {
       'x-component-props': {
         title: 'Title',
+        titleEn: 'Title(EN)',
         align: {
           title: 'Align',
           dataSource: ['Left', 'Right', 'Center'],

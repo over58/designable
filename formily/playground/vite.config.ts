@@ -30,7 +30,10 @@ const getWorkspaceAlias = () => {
 // https://vitejs.dev/config/
 export default defineConfig({
   root: '.',
-  plugins: [react(), basicSsl()],
+  plugins: [
+    react(), 
+    // basicSsl()
+  ],
   resolve: {
     alias: [
       { find: /^~/, replacement: '' },

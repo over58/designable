@@ -43,6 +43,7 @@ export const FormTabPane = {
     settings: {
       'x-component-props': {
         tab: '面板标题',
+        tabEn: '面板标题(英文)',
       },
     },
   },
@@ -51,6 +52,7 @@ export const FormTabPane = {
     settings: {
       'x-component-props': {
         tab: 'Panel Title',
+        tabEn: 'Panel Title(En)',
       },
     },
   }

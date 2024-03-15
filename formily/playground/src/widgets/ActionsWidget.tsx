@@ -31,6 +31,7 @@ export const ActionsWidget:React.FC<{}> = observer(() => {
         ]}
         onChange={(e) => {
           GlobalRegistry.setDesignerLanguage(e.target.value)
+          window['lang'] = e.target.value
         }}
       />
       <Button href="https://github.com/pindjs/designable" target="_blank">
