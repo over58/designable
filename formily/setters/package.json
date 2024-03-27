@@ -40,8 +40,8 @@
     "@formily/reactive-react": "^2.2.16",
     "@formily/shared": "^2.2.16",
     "antd": "^5.1.2",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "peerDependencies": {
     "@formily/antd-v5": "^1.0.1-rc.1",
@@ -51,11 +51,11 @@
     "@formily/reactive": "^2.2.14",
     "@formily/reactive-react": "^2.2.14",
     "@formily/shared": "^2.2.14",
-    "@types/react": "^17.0.38",
-    "@types/react-dom": "^17.0.11",
+    "@types/react": "^18.2.48",
+    "@types/react-dom": "^18.2.18",
     "antd": "^5.0.0",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "dependencies": {
     "@formily/json-schema": "^2.2.16",
@@ -64,8 +64,8 @@
     "@over58/designable-react": "0.0.6-rc.0",
     "@over58/designable-react-settings-form": "0.0.6-rc.0",
     "@over58/designable-shared": "0.0.6-rc.0",
-    "@types/react": "^17.0.38",
-    "@types/react-dom": "^17.0.11",
+    "@types/react": "^18.2.48",
+    "@types/react-dom": "^18.2.18",
     "classnames": "^2.3.2"
   },
   "publishConfig": {

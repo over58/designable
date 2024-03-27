@@ -26,7 +26,7 @@ import {
 import { MonacoInput, SettingsForm } from '@over58/designable-react-settings-form'
 import { Button, Radio, Space } from 'antd'
 import React, { useEffect } from 'react'
-import ReactDOM from 'react-dom'
+import { createRoot } from 'react-dom/client'
 import { Content } from './content'
 
 const RootBehavior = createBehavior({
@@ -415,4 +415,8 @@ const App = () => {
     </Designer>
   )
 }
-ReactDOM.render(<App />, document.getElementById('root'))
+
+
+const container = document.getElementById('root') as HTMLElement
+const root = createRoot(container)
+root.render(<App />)

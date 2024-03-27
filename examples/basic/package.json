@@ -11,8 +11,8 @@
   },
   "devDependencies": {
     "@types/glob": "^7.2.0",
-    "@types/react": "^17.0.38",
-    "@types/react-dom": "^17.0.11",
+    "@types/react": "^18.2.48",
+    "@types/react-dom": "^18.2.18",
     "@vitejs/plugin-basic-ssl": "^1.0.0",
     "@vitejs/plugin-react-swc": "^3.0.0",
     "less": "^3.13.1",
@@ -27,15 +27,15 @@
     "@formily/react": "^2.2.16",
     "@formily/reactive": "^2.2.16",
     "@formily/reactive-react": "^2.2.16",
-    "@over58/designable-core": "0.0.6-rc.0",
-    "@over58/designable-formily-antd": "0.0.6-rc.0",
-    "@over58/designable-react": "0.0.6-rc.0",
-    "@over58/designable-react-sandbox": "0.0.6-rc.0",
-    "@over58/designable-react-settings-form": "0.0.6-rc.0",
-    "@over58/designable-shared": "0.0.6-rc.0",
+    "@over58/designable-core": "workspace:*",
+    "@over58/designable-formily-antd": "workspace:*",
+    "@over58/designable-react": "workspace:*",
+    "@over58/designable-react-sandbox": "workspace:*",
+    "@over58/designable-react-settings-form": "workspace:*",
+    "@over58/designable-shared": "workspace:*",
     "antd": "^5.1.2",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "gitHead": "820790a9ae32c2348bb36b3de7ca5f1051ed392c"
 }

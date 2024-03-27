@@ -28,7 +28,7 @@ import { Sandbox } from '@over58/designable-react-sandbox'
 import { MonacoInput, SettingsForm } from '@over58/designable-react-settings-form'
 import { Button, Radio, Space } from 'antd'
 import React, { useEffect, useMemo } from 'react'
-import ReactDOM from 'react-dom'
+import { createRoot } from 'react-dom/client'
 const RootBehavior = createBehavior({
   name: 'Root',
   selector: 'Root',
@@ -367,4 +367,6 @@ const App = () => {
   )
 }
 
-ReactDOM.render(<App />, document.getElementById('root'))
+const container = document.getElementById('root') as HTMLElement
+const root = createRoot(container)
+root.render(<App />)

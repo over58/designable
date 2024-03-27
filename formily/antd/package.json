@@ -42,8 +42,8 @@
     "@formily/shared": "^2.2.16",
     "@over58/designable-react-settings-form": "0.0.6-rc.0",
     "@types/glob": "^7.2.0",
-    "@types/react": "^17.0.38",
-    "@types/react-dom": "^17.0.11",
+    "@types/react": "^18.2.48",
+    "@types/react-dom": "^18.2.18",
     "@vitejs/plugin-basic-ssl": "^1.0.0",
     "@vitejs/plugin-react-swc": "^3.0.0",
     "less": "^3.13.1",
@@ -59,10 +59,10 @@
     "@formily/reactive": "^2.2.14",
     "@formily/reactive-react": "^2.2.14",
     "@formily/shared": "^2.2.14",
-    "@types/react": "^17.0.38",
-    "@types/react-dom": "^17.0.11",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "@types/react": "^18.2.48",
+    "@types/react-dom": "^18.2.18",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "dependencies": {
     "@over58/designable-core": "0.0.6-rc.0",
@@ -71,8 +71,8 @@
     "@over58/designable-react": "0.0.6-rc.0",
     "antd": "^5.1.2",
     "classnames": "^2.3.2",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "publishConfig": {
     "access": "public"
