@@ -7,7 +7,7 @@ importers:
 
   .:
     specifiers:
-      '@ant-design/icons': ^4.8.0
+      '@ant-design/icons': ^5.2.6
       '@rollup/plugin-commonjs': ^23.0.7
       '@rollup/plugin-node-resolve': ^15.0.1
       '@rollup/plugin-terser': ^0.2.1
@@ -90,7 +90,7 @@ importers:
       typescript: ^4.9.5
       vite: ^4.0.0
     dependencies:
-      '@ant-design/icons': 4.8.1_biqbaboplfbrettd7655fr4n2y
+      '@ant-design/icons': 5.3.1_biqbaboplfbrettd7655fr4n2y
     devDependencies:
       '@rollup/plugin-commonjs': 23.0.7_rollup@3.29.4
       '@rollup/plugin-node-resolve': 15.2.3_rollup@3.29.4
@@ -176,20 +176,20 @@ importers:
 
   examples/basic:
     specifiers:
-      '@ant-design/icons': ^4.8.0
+      '@ant-design/icons': ^5.2.6
       '@formily/antd-v5': ^1.0.1-rc.1
       '@formily/core': ^2.2.16
       '@formily/react': ^2.2.14
       '@formily/reactive': ^2.2.16
       '@formily/reactive-react': ^2.2.16
-      '@over58/designable-core': 0.0.6-rc.0
-      '@over58/designable-formily-antd': 0.0.6-rc.0
-      '@over58/designable-react': 0.0.6-rc.0
-      '@over58/designable-react-sandbox': 0.0.6-rc.0
-      '@over58/designable-react-settings-form': 0.0.6-rc.0
-      '@over58/designable-shared': 0.0.6-rc.0
+      '@over58/designable-core': workspace:*
+      '@over58/designable-formily-antd': workspace:*
+      '@over58/designable-react': workspace:*
+      '@over58/designable-react-sandbox': workspace:*
+      '@over58/designable-react-settings-form': workspace:*
+      '@over58/designable-shared': workspace:*
       '@types/glob': ^7.2.0
-      '@types/react': ^18.2.48
+      '@types/react': ~16.9
       '@types/react-dom': ^18.2.18
       '@vitejs/plugin-basic-ssl': ^1.0.0
       '@vitejs/plugin-react-swc': ^3.0.0
@@ -201,12 +201,12 @@ importers:
       typescript: ^4.9.5
       vite: ^4.0.0
     dependencies:
-      '@ant-design/icons': 4.8.1_biqbaboplfbrettd7655fr4n2y
-      '@formily/antd-v5': 1.1.9_hf2ulvcliq4w6qf7j7xflenbkq
+      '@ant-design/icons': 5.3.1_biqbaboplfbrettd7655fr4n2y
+      '@formily/antd-v5': 1.1.9_hnuq2akzlx64va7xn3a3kn4so4
       '@formily/core': 2.3.1
-      '@formily/react': 2.3.1_kyhfsiejnv4xtdff3wnbvboqby
+      '@formily/react': 2.3.1_l5th3v2yfujzlhrisatwhkffhu
       '@formily/reactive': 2.3.1
-      '@formily/reactive-react': 2.3.1_ruwprnn2neyywgcxfkmdoplqty
+      '@formily/reactive-react': 2.3.1_anpqq26mxnfizkyehkofsywyu4
       '@over58/designable-core': link:../../packages/core
       '@over58/designable-formily-antd': link:../../formily/antd
       '@over58/designable-react': link:../../packages/react
@@ -218,7 +218,7 @@ importers:
       react-dom: 18.2.0_react@18.2.0
     devDependencies:
       '@types/glob': 7.2.0
-      '@types/react': 18.2.72
+      '@types/react': 16.9.56
       '@types/react-dom': 18.2.19
       '@vitejs/plugin-basic-ssl': 1.1.0_vite@4.5.2
       '@vitejs/plugin-react-swc': 3.6.0_vite@4.5.2
@@ -229,19 +229,19 @@ importers:
 
   examples/multi-workspace:
     specifiers:
-      '@ant-design/icons': ^4.8.0
+      '@ant-design/icons': ^5.2.6
       '@formily/antd-v5': ^1.0.1-rc.1
       '@formily/core': ^2.2.16
       '@formily/react': ^2.2.14
       '@formily/reactive': ^2.2.16
       '@formily/reactive-react': ^2.2.16
-      '@over58/designable-core': 0.0.6-rc.0
-      '@over58/designable-react': 0.0.6-rc.0
-      '@over58/designable-react-sandbox': 0.0.6-rc.0
-      '@over58/designable-react-settings-form': 0.0.6-rc.0
-      '@over58/designable-shared': 0.0.6-rc.0
+      '@over58/designable-core': workspace:*
+      '@over58/designable-react': workspace:*
+      '@over58/designable-react-sandbox': workspace:*
+      '@over58/designable-react-settings-form': workspace:*
+      '@over58/designable-shared': workspace:*
       '@types/glob': ^7.2.0
-      '@types/react': ^18.2.48
+      '@types/react': ~16.9
       '@types/react-dom': ^18.2.18
       '@vitejs/plugin-basic-ssl': ^1.0.0
       '@vitejs/plugin-react-swc': ^3.0.0
@@ -253,12 +253,12 @@ importers:
       typescript: ^4.9.5
       vite: ^4.0.0
     dependencies:
-      '@ant-design/icons': 4.8.1_biqbaboplfbrettd7655fr4n2y
-      '@formily/antd-v5': 1.1.9_hf2ulvcliq4w6qf7j7xflenbkq
+      '@ant-design/icons': 5.3.1_biqbaboplfbrettd7655fr4n2y
+      '@formily/antd-v5': 1.1.9_hnuq2akzlx64va7xn3a3kn4so4
       '@formily/core': 2.3.1
-      '@formily/react': 2.3.1_kyhfsiejnv4xtdff3wnbvboqby
+      '@formily/react': 2.3.1_l5th3v2yfujzlhrisatwhkffhu
       '@formily/reactive': 2.3.1
-      '@formily/reactive-react': 2.3.1_ruwprnn2neyywgcxfkmdoplqty
+      '@formily/reactive-react': 2.3.1_anpqq26mxnfizkyehkofsywyu4
       '@over58/designable-core': link:../../packages/core
       '@over58/designable-react': link:../../packages/react
       '@over58/designable-react-sandbox': link:../../packages/react-sandbox
@@ -269,7 +269,7 @@ importers:
       react-dom: 18.2.0_react@18.2.0
     devDependencies:
       '@types/glob': 7.2.0
-      '@types/react': 18.2.72
+      '@types/react': 16.9.56
       '@types/react-dom': 18.2.19
       '@vitejs/plugin-basic-ssl': 1.1.0_vite@4.5.2
       '@vitejs/plugin-react-swc': 3.6.0_vite@4.5.2
@@ -280,20 +280,20 @@ importers:
 
   examples/sandbox:
     specifiers:
-      '@ant-design/icons': ^4.8.0
+      '@ant-design/icons': ^5.2.6
       '@formily/antd-v5': ^1.0.1-rc.1
       '@formily/core': ^2.2.16
       '@formily/react': ^2.2.14
       '@formily/reactive': ^2.2.16
       '@formily/reactive-react': ^2.2.16
       '@formily/shared': ^2.2.16
-      '@over58/designable-core': 0.0.6-rc.0
-      '@over58/designable-react': 0.0.6-rc.0
-      '@over58/designable-react-sandbox': 0.0.6-rc.0
-      '@over58/designable-react-settings-form': 0.0.6-rc.0
-      '@over58/designable-shared': 0.0.6-rc.0
+      '@over58/designable-core': workspace:*
+      '@over58/designable-react': workspace:*
+      '@over58/designable-react-sandbox': workspace:*
+      '@over58/designable-react-settings-form': workspace:*
+      '@over58/designable-shared': workspace:*
       '@types/glob': ^7.2.0
-      '@types/react': ^18.2.48
+      '@types/react': ~16.9
       '@types/react-dom': ^18.2.18
       '@vitejs/plugin-basic-ssl': ^1.0.0
       '@vitejs/plugin-react-swc': ^3.0.0
@@ -305,12 +305,12 @@ importers:
       typescript: ^4.9.5
       vite: ^4.0.0
     dependencies:
-      '@ant-design/icons': 4.8.1_biqbaboplfbrettd7655fr4n2y
-      '@formily/antd-v5': 1.1.9_hf2ulvcliq4w6qf7j7xflenbkq
+      '@ant-design/icons': 5.3.1_biqbaboplfbrettd7655fr4n2y
+      '@formily/antd-v5': 1.1.9_hnuq2akzlx64va7xn3a3kn4so4
       '@formily/core': 2.3.1
-      '@formily/react': 2.3.1_kyhfsiejnv4xtdff3wnbvboqby
+      '@formily/react': 2.3.1_l5th3v2yfujzlhrisatwhkffhu
       '@formily/reactive': 2.3.1
-      '@formily/reactive-react': 2.3.1_ruwprnn2neyywgcxfkmdoplqty
+      '@formily/reactive-react': 2.3.1_anpqq26mxnfizkyehkofsywyu4
       '@formily/shared': 2.3.1
       '@over58/designable-core': link:../../packages/core
       '@over58/designable-react': link:../../packages/react
@@ -322,7 +322,7 @@ importers:
       react-dom: 18.2.0_react@18.2.0
     devDependencies:
       '@types/glob': 7.2.0
-      '@types/react': 18.2.72
+      '@types/react': 16.9.56
       '@types/react-dom': 18.2.19
       '@vitejs/plugin-basic-ssl': 1.1.0_vite@4.5.2
       '@vitejs/plugin-react-swc': 3.6.0_vite@4.5.2
@@ -339,13 +339,13 @@ importers:
       '@formily/reactive': ^2.2.16
       '@formily/reactive-react': ^2.2.16
       '@formily/shared': ^2.2.16
-      '@over58/designable-core': 0.0.6-rc.0
-      '@over58/designable-react': 0.0.6-rc.0
-      '@over58/designable-react-sandbox': 0.0.6-rc.0
-      '@over58/designable-react-settings-form': 0.0.6-rc.0
-      '@over58/designable-shared': 0.0.6-rc.0
+      '@over58/designable-core': workspace:*
+      '@over58/designable-react': workspace:*
+      '@over58/designable-react-sandbox': workspace:*
+      '@over58/designable-react-settings-form': workspace:*
+      '@over58/designable-shared': workspace:*
       '@types/glob': ^7.2.0
-      '@types/react': ^18.2.48
+      '@types/react': ~16.9
       '@types/react-dom': ^18.2.18
       '@vitejs/plugin-basic-ssl': ^1.0.0
       '@vitejs/plugin-react-swc': ^3.0.0
@@ -357,11 +357,11 @@ importers:
       typescript: ^4.9.5
       vite: ^4.0.0
     dependencies:
-      '@formily/antd-v5': 1.1.9_hf2ulvcliq4w6qf7j7xflenbkq
+      '@formily/antd-v5': 1.1.9_hnuq2akzlx64va7xn3a3kn4so4
       '@formily/core': 2.3.1
-      '@formily/react': 2.3.1_kyhfsiejnv4xtdff3wnbvboqby
+      '@formily/react': 2.3.1_l5th3v2yfujzlhrisatwhkffhu
       '@formily/reactive': 2.3.1
-      '@formily/reactive-react': 2.3.1_ruwprnn2neyywgcxfkmdoplqty
+      '@formily/reactive-react': 2.3.1_anpqq26mxnfizkyehkofsywyu4
       '@formily/shared': 2.3.1
       '@over58/designable-core': link:../../packages/core
       '@over58/designable-react': link:../../packages/react
@@ -373,7 +373,7 @@ importers:
       react-dom: 18.2.0_react@18.2.0
     devDependencies:
       '@types/glob': 7.2.0
-      '@types/react': 18.2.72
+      '@types/react': 16.9.56
       '@types/react-dom': 18.2.19
       '@vitejs/plugin-basic-ssl': 1.1.0_vite@4.5.2
       '@vitejs/plugin-react-swc': 3.6.0_vite@4.5.2
@@ -384,7 +384,7 @@ importers:
 
   formily/antd:
     specifiers:
-      '@ant-design/icons': ^4.8.0
+      '@ant-design/icons': ^5.2.6
       '@formily/antd-v5': ^1.0.1-rc.1
       '@formily/core': ^2.2.16
       '@formily/json-schema': ^2.2.16
@@ -398,7 +398,7 @@ importers:
       '@over58/designable-react': 0.0.6-rc.0
       '@over58/designable-react-settings-form': 0.0.6-rc.0
       '@types/glob': ^7.2.0
-      '@types/react': ^18.2.48
+      '@types/react': ~16.9
       '@types/react-dom': ^18.2.18
       '@vitejs/plugin-basic-ssl': ^1.0.0
       '@vitejs/plugin-react-swc': ^3.0.0
@@ -420,17 +420,17 @@ importers:
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
     devDependencies:
-      '@ant-design/icons': 4.8.1_biqbaboplfbrettd7655fr4n2y
-      '@formily/antd-v5': 1.1.9_hf2ulvcliq4w6qf7j7xflenbkq
+      '@ant-design/icons': 5.3.1_biqbaboplfbrettd7655fr4n2y
+      '@formily/antd-v5': 1.1.9_hnuq2akzlx64va7xn3a3kn4so4
       '@formily/core': 2.3.1
       '@formily/json-schema': 2.3.1_typescript@4.9.5
-      '@formily/react': 2.3.1_kyhfsiejnv4xtdff3wnbvboqby
+      '@formily/react': 2.3.1_l5th3v2yfujzlhrisatwhkffhu
       '@formily/reactive': 2.3.1
-      '@formily/reactive-react': 2.3.1_ruwprnn2neyywgcxfkmdoplqty
+      '@formily/reactive-react': 2.3.1_anpqq26mxnfizkyehkofsywyu4
       '@formily/shared': 2.3.1
       '@over58/designable-react-settings-form': link:../../packages/react-settings-form
       '@types/glob': 7.2.0
-      '@types/react': 18.2.72
+      '@types/react': 16.9.56
       '@types/react-dom': 18.2.19
       '@vitejs/plugin-basic-ssl': 1.1.0_vite@4.5.2
       '@vitejs/plugin-react-swc': 3.6.0_vite@4.5.2
@@ -441,7 +441,7 @@ importers:
 
   formily/playground:
     specifiers:
-      '@ant-design/icons': ^4.8.0
+      '@ant-design/icons': ^5.2.6
       '@formily/antd-v5': ^1.0.1-rc.1
       '@formily/core': ^2.2.16
       '@formily/json-schema': ^2.2.16
@@ -456,7 +456,7 @@ importers:
       '@over58/designable-react': 0.0.6-rc.0
       '@over58/designable-react-settings-form': workspace:0.0.6-rc.0
       '@types/glob': ^7.2.0
-      '@types/react': ^18.2.48
+      '@types/react': ~16.9
       '@types/react-dom': ^18.2.18
       '@vitejs/plugin-basic-ssl': ^1.0.0
       '@vitejs/plugin-react-swc': ^3.0.0
@@ -478,17 +478,17 @@ importers:
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
     devDependencies:
-      '@ant-design/icons': 4.8.1_biqbaboplfbrettd7655fr4n2y
-      '@formily/antd-v5': 1.1.9_hf2ulvcliq4w6qf7j7xflenbkq
+      '@ant-design/icons': 5.3.1_biqbaboplfbrettd7655fr4n2y
+      '@formily/antd-v5': 1.1.9_hnuq2akzlx64va7xn3a3kn4so4
       '@formily/core': 2.3.1
       '@formily/json-schema': 2.3.1_typescript@4.9.5
-      '@formily/react': 2.3.1_kyhfsiejnv4xtdff3wnbvboqby
+      '@formily/react': 2.3.1_l5th3v2yfujzlhrisatwhkffhu
       '@formily/reactive': 2.3.1
-      '@formily/reactive-react': 2.3.1_ruwprnn2neyywgcxfkmdoplqty
+      '@formily/reactive-react': 2.3.1_anpqq26mxnfizkyehkofsywyu4
       '@formily/shared': 2.3.1
       '@over58/designable-react-settings-form': link:../../packages/react-settings-form
       '@types/glob': 7.2.0
-      '@types/react': 18.2.72
+      '@types/react': 16.9.56
       '@types/react-dom': 18.2.19
       '@vitejs/plugin-basic-ssl': 1.1.0_vite@4.5.2
       '@vitejs/plugin-react-swc': 3.6.0_vite@4.5.2
@@ -510,7 +510,7 @@ importers:
       '@over58/designable-react': 0.0.6-rc.0
       '@over58/designable-react-settings-form': 0.0.6-rc.0
       '@over58/designable-shared': 0.0.6-rc.0
-      '@types/react': ^18.2.48
+      '@types/react': ~16.9
       '@types/react-dom': ^18.2.18
       antd: ^5.1.2
       classnames: ^2.3.2
@@ -523,15 +523,15 @@ importers:
       '@over58/designable-react': link:../../packages/react
       '@over58/designable-react-settings-form': link:../../packages/react-settings-form
       '@over58/designable-shared': link:../../packages/shared
-      '@types/react': 18.2.72
+      '@types/react': 16.9.56
       '@types/react-dom': 18.2.19
       classnames: 2.5.1
     devDependencies:
-      '@formily/antd-v5': 1.1.9_hf2ulvcliq4w6qf7j7xflenbkq
+      '@formily/antd-v5': 1.1.9_hnuq2akzlx64va7xn3a3kn4so4
       '@formily/core': 2.3.1
-      '@formily/react': 2.3.1_kyhfsiejnv4xtdff3wnbvboqby
+      '@formily/react': 2.3.1_l5th3v2yfujzlhrisatwhkffhu
       '@formily/reactive': 2.3.1
-      '@formily/reactive-react': 2.3.1_ruwprnn2neyywgcxfkmdoplqty
+      '@formily/reactive-react': 2.3.1_anpqq26mxnfizkyehkofsywyu4
       '@formily/shared': 2.3.1
       antd: 5.15.0_biqbaboplfbrettd7655fr4n2y
       react: 18.2.0
@@ -571,7 +571,7 @@ importers:
       '@formily/reactive-react': ^2.2.16
       '@over58/designable-core': 0.0.6-rc.0
       '@over58/designable-shared': 0.0.6-rc.0
-      '@types/react': ^18.2.48
+      '@types/react': ~16.9
       '@types/react-dom': ^18.2.18
       antd: ^5.1.2
       classnames: ^2.3.2
@@ -585,8 +585,8 @@ importers:
       dateformat: 4.6.3
     devDependencies:
       '@formily/reactive': 2.3.1
-      '@formily/reactive-react': 2.3.1_ruwprnn2neyywgcxfkmdoplqty
-      '@types/react': 18.2.72
+      '@formily/reactive-react': 2.3.1_anpqq26mxnfizkyehkofsywyu4
+      '@types/react': 16.9.56
       '@types/react-dom': 18.2.19
       react: 18.2.0
 
@@ -594,7 +594,7 @@ importers:
     specifiers:
       '@over58/designable-react': 0.0.6-rc.0
       '@over58/designable-shared': 0.0.6-rc.0
-      '@types/react': ^18.2.48
+      '@types/react': ~16.9
       '@types/react-dom': ^18.2.18
       react: ^18.2.0
       react-dom: ^18.2.0
@@ -604,7 +604,7 @@ importers:
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
     devDependencies:
-      '@types/react': 18.2.72
+      '@types/react': 16.9.56
       '@types/react-dom': 18.2.19
 
   packages/react-settings-form:
@@ -623,7 +623,7 @@ importers:
       '@over58/designable-react': 0.0.6-rc.0
       '@over58/designable-shared': 0.0.6-rc.0
       '@rc-component/mini-decimal': ^1.0.1
-      '@types/react': ^18.2.48
+      '@types/react': ~16.9
       '@types/react-dom': ^18.2.18
       antd: ^5.1.2
       classnames: ^2.3.2
@@ -636,12 +636,12 @@ importers:
       ts-node: ^10.9.1
     dependencies:
       '@babel/parser': 7.24.0
-      '@formily/antd-v5': 1.1.9_hf2ulvcliq4w6qf7j7xflenbkq
+      '@formily/antd-v5': 1.1.9_hnuq2akzlx64va7xn3a3kn4so4
       '@formily/core': 2.3.1
       '@formily/grid': 2.3.1_typescript@4.9.5
-      '@formily/react': 2.3.1_kyhfsiejnv4xtdff3wnbvboqby
+      '@formily/react': 2.3.1_l5th3v2yfujzlhrisatwhkffhu
       '@formily/reactive': 2.3.1
-      '@formily/reactive-react': 2.3.1_ruwprnn2neyywgcxfkmdoplqty
+      '@formily/reactive-react': 2.3.1_anpqq26mxnfizkyehkofsywyu4
       '@formily/shared': 2.3.1
       '@monaco-editor/loader': 1.4.0_monaco-editor@0.34.1
       '@monaco-editor/react': 4.6.0_6vrjaj6ridxbohi43n7zt4gn7q
@@ -655,7 +655,7 @@ importers:
       react-color: 2.19.3_react@18.2.0
     devDependencies:
       '@rc-component/mini-decimal': 1.1.0
-      '@types/react': 18.2.72
+      '@types/react': 16.9.56
       '@types/react-dom': 18.2.19
       dayjs: 1.11.10
       react: 18.2.0
@@ -687,11 +687,6 @@ packages:
       '@jridgewell/trace-mapping': 0.3.25
     dev: true
 
-  /@ant-design/colors/6.0.0:
-    resolution: {integrity: sha512-qAZRvPzfdWHtfameEGP2Qvuf838NhergR35o+EuVyB5XvSA98xod5r4utvi4TJ3ywmevm290g9nsCG5MryrdWQ==}
-    dependencies:
-      '@ctrl/tinycolor': 3.6.1
-
   /@ant-design/colors/7.0.2:
     resolution: {integrity: sha512-7KJkhTiPiLHSu+LmMJnehfJ6242OCxSlR3xHVBecYxnMW8MS/878NXct1GqYARyL59fyeFdKRxXTfvR9SnDgJg==}
     dependencies:
@@ -715,22 +710,6 @@ packages:
 
   /@ant-design/icons-svg/4.4.2:
     resolution: {integrity: sha512-vHbT+zJEVzllwP+CM+ul7reTEfBR0vgxFe7+lREAsAA7YGsYpboiq2sQNeQeRvh09GfQgs/GyFEvZpJ9cLXpXA==}
-
-  /@ant-design/icons/4.8.1_biqbaboplfbrettd7655fr4n2y:
-    resolution: {integrity: sha512-JRAuiqllnMsiZIO8OvBOeFconprC3cnMpJ9MvXrHh+H5co9rlg8/aSHQfLf5jKKe18lUgRaIwC2pz8YxH9VuCA==}
-    engines: {node: '>=8'}
-    peerDependencies:
-      react: '>=16.0.0'
-      react-dom: '>=16.0.0'
-    dependencies:
-      '@ant-design/colors': 6.0.0
-      '@ant-design/icons-svg': 4.4.2
-      '@babel/runtime': 7.24.0
-      classnames: 2.5.1
-      lodash: 4.17.21
-      rc-util: 5.38.2_biqbaboplfbrettd7655fr4n2y
-      react: 18.2.0
-      react-dom: 18.2.0_react@18.2.0
 
   /@ant-design/icons/5.3.1_biqbaboplfbrettd7655fr4n2y:
     resolution: {integrity: sha512-85zROTJCCApQn0Ee6L9561+Vd7yVKtSWNm2TpmOsYMrumchbzaRK83x1WWHv2VG+Y1ZAaKkDwcnnSPS/eSwNHA==}
@@ -2969,7 +2948,7 @@ packages:
       typescript: 4.9.5
     dev: true
 
-  /@formily/antd-v5/1.1.9_hf2ulvcliq4w6qf7j7xflenbkq:
+  /@formily/antd-v5/1.1.9_hnuq2akzlx64va7xn3a3kn4so4:
     resolution: {integrity: sha512-Gw0wx6zERLJS8GvmTizV6UPNyxNrg2svbV1Dr38jwsw+dkEef7ZANNERfEpsl2TvCEDl4W3QVFNPws5woLGl8g==}
     engines: {npm: '>=3.0.0'}
     peerDependencies:
@@ -2987,11 +2966,11 @@ packages:
       '@formily/core': 2.3.1
       '@formily/grid': 2.3.1_typescript@4.9.5
       '@formily/json-schema': 2.3.1_typescript@4.9.5
-      '@formily/react': 2.3.1_kyhfsiejnv4xtdff3wnbvboqby
+      '@formily/react': 2.3.1_l5th3v2yfujzlhrisatwhkffhu
       '@formily/reactive': 2.3.1
-      '@formily/reactive-react': 2.3.1_ruwprnn2neyywgcxfkmdoplqty
+      '@formily/reactive-react': 2.3.1_anpqq26mxnfizkyehkofsywyu4
       '@formily/shared': 2.3.1
-      '@types/react': 18.2.72
+      '@types/react': 16.9.56
       '@types/react-dom': 18.2.19
       antd: 5.15.0_biqbaboplfbrettd7655fr4n2y
       classnames: 2.5.1
@@ -3035,7 +3014,7 @@ packages:
     resolution: {integrity: sha512-BVo89K5nAFntx02+EV696If1b1bVIm5I1tRPtVyCVIjBIfAgga5hK4k80GZ01Dlk3tpReHpiIbZVg2DNVfw7jA==}
     engines: {npm: '>=3.0.0'}
 
-  /@formily/react/2.3.1_kyhfsiejnv4xtdff3wnbvboqby:
+  /@formily/react/2.3.1_l5th3v2yfujzlhrisatwhkffhu:
     resolution: {integrity: sha512-8KkFJe2OnbsgiXwY/txUcUaCQIfIkfowWQinOSni02U2ssgs2bpb1ifFHlZrFGfrrW/xhce4ANUHRgoVYt7W4Q==}
     engines: {npm: '>=3.0.0'}
     peerDependencies:
@@ -3053,10 +3032,10 @@ packages:
       '@formily/core': 2.3.1
       '@formily/json-schema': 2.3.1_typescript@4.9.5
       '@formily/reactive': 2.3.1
-      '@formily/reactive-react': 2.3.1_ruwprnn2neyywgcxfkmdoplqty
+      '@formily/reactive-react': 2.3.1_anpqq26mxnfizkyehkofsywyu4
       '@formily/shared': 2.3.1
       '@formily/validator': 2.3.1
-      '@types/react': 18.2.72
+      '@types/react': 16.9.56
       '@types/react-dom': 18.2.19
       hoist-non-react-statics: 3.3.2
       react: 18.2.0
@@ -3065,7 +3044,7 @@ packages:
     transitivePeerDependencies:
       - typescript
 
-  /@formily/reactive-react/2.3.1_ruwprnn2neyywgcxfkmdoplqty:
+  /@formily/reactive-react/2.3.1_anpqq26mxnfizkyehkofsywyu4:
     resolution: {integrity: sha512-r6d94JBWhwXGpsffNLnRzgksQJtmqudD1cq7ky2Oljtxg5Ynl8H0Ppcnsv0bd9NbNSAeDeFs2uwWz56exgDzjA==}
     engines: {npm: '>=3.0.0'}
     peerDependencies:
@@ -3081,7 +3060,7 @@ packages:
         optional: true
     dependencies:
       '@formily/reactive': 2.3.1
-      '@types/react': 18.2.72
+      '@types/react': 16.9.56
       '@types/react-dom': 18.2.19
       hoist-non-react-statics: 3.3.2
       react: 18.2.0
@@ -5241,7 +5220,7 @@ packages:
   /@types/hoist-non-react-statics/3.3.5:
     resolution: {integrity: sha512-SbcrWzkKBw2cdwRTwQAswfpB9g9LJWfjtUeW/jvNwbhC8cpmmNYVePa+ncbUe0rGTQ7G3Ff6mYUN2VMfLVr+Sg==}
     dependencies:
-      '@types/react': 18.2.72
+      '@types/react': 16.9.56
       hoist-non-react-statics: 3.3.2
     dev: true
 
@@ -5356,10 +5335,10 @@ packages:
   /@types/react-dom/18.2.19:
     resolution: {integrity: sha512-aZvQL6uUbIJpjZk4U8JZGbau9KDeAwMfmhyWorxgBkqDIEf6ROjRozcmPIicqsUwPUjbkDfHKgGee1Lq65APcA==}
     dependencies:
-      '@types/react': 18.2.72
+      '@types/react': 16.9.56
 
-  /@types/react/18.2.72:
-    resolution: {integrity: sha512-/e7GWxGzXQF7OJAua7UAYqYi/4VpXEfbGtmYQcAQwP3SjjjAXfybTf/JK5S+SaetB/ChXl8Y2g1hCsj7jDXxcg==}
+  /@types/react/16.9.56:
+    resolution: {integrity: sha512-gIkl4J44G/qxbuC6r2Xh+D3CGZpJ+NdWTItAPmZbR5mUS+JQ8Zvzpl0ea5qT/ZT3ZNTUcDKUVqV3xBE8wv/DyQ==}
     dependencies:
       '@types/prop-types': 15.7.11
       csstype: 3.1.3
@@ -18851,7 +18830,7 @@ packages:
       '@formatjs/intl-displaynames': 6.6.6
       '@formatjs/intl-listformat': 7.5.5
       '@types/hoist-non-react-statics': 3.3.5
-      '@types/react': 18.2.72
+      '@types/react': 16.9.56
       hoist-non-react-statics: 3.3.2
       intl-messageformat: 10.5.11
       react: 18.2.0

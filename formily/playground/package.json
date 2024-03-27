@@ -35,7 +35,7 @@
     "preview": "vite preview --host --config vite.config.ts"
   },
   "devDependencies": {
-    "@ant-design/icons": "^4.8.0",
+    "@ant-design/icons": "^5.2.6",
     "@formily/antd-v5": "^1.0.1-rc.1",
     "@formily/core": "^2.2.16",
     "@formily/json-schema": "^2.2.16",

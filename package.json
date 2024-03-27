@@ -148,6 +148,6 @@
     ]
   },
   "dependencies": {
-    "@ant-design/icons": "^4.8.0"
+    "@ant-design/icons": "^5.2.6"
   }
 }
